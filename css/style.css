@@ -1,0 +1,27 @@
+body {
+  background-color: #f4f5f6;
+}
+
+main {
+  max-width: 1310px;
+  height: 2000px;
+  background-color: white;
+}
+
+nav header {
+  text-align: center;
+}
+
+.subscribe {
+  text-align: right;
+}
+
+.menu li {  
+  float: left;
+  background-color: aquamarine;
+  flex: 1 1 9%;
+}
+
+.search-bar {
+  background-color: aliceblue;
+}

@@ -16,10 +16,20 @@ nav header {
   text-align: right;
 }
 
+.menu {
+  margin: 10px 0;
+}
+
 .menu li {  
-  float: left;
-  background-color: aquamarine;
-  flex: 1 1 9%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  border-left: 1px solid gray;
+}
+
+.menu li {
+  display: flex;
 }
 
 .search-bar {

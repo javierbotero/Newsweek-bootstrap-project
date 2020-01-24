@@ -8,6 +8,16 @@ main {
   background-color: white;
 }
 
+.three-col {
+  background-color: aquamarine;
+  height: 1000px;
+}
+
+.left-section, .right-section {
+  height: 300px;
+  border: 1px solid red;
+}
+
 nav header {
   text-align: center;
 }

@@ -13,7 +13,14 @@ body {
 .news-special-children,
 .ideo-left,
 .content-video,
-.video-left {
+.video-left,
+.slideshows-children,
+.categories-US,
+.subscribeBottom,
+.subscribe-child,
+.newsletter,
+.in-depth-content,
+.mail-susbcribe {
   height: 300px;
   border: 1px solid red;
 }
@@ -39,7 +46,7 @@ nav header {
   align-items: center;
   justify-content: center;
   flex-grow: 1;
-  border-left: 1px solid gray;
+  border-left: 1px solid rgb(217, 217, 217);
 }
 
 .menu li {
@@ -54,7 +61,6 @@ nav header {
 
 main {
   max-width: 1310px;
-  height: 2000px;
   background-color: white;
 }
 
@@ -69,4 +75,31 @@ main {
   display: block;
 }
 
+/* Same sules for various elements */
+
+.slideShows,
+.subscribeBottom {
+  border-bottom: 1px solid rgb(217, 217, 217);
+  padding-bottom: 20px;
+}
+
+/* End same sules for various elements */
+
+.categories-mini {
+  border: 1px solid red;
+  height: 33.3%;
+}
+
+.subscribeBottom {
+
+}
+
+#Layer_1 {
+  display: block;
+  width: 236px;
+  height: 36px;
+  margin-right: 15px;
+  margin-bottom: 12px;
+  fill: #f72210;
+}
 

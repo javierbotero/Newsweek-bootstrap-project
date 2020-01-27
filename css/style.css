@@ -29,6 +29,10 @@ body {
 
  /* nav bar styles */
 
+ nav {
+   background-color: #f72210;
+ }
+
 nav header {
   text-align: center;
 }
@@ -37,9 +41,9 @@ nav header {
   text-align: right;
 }
 
-.menu {
-  margin: 10px 0;  
-}
+/* .menu {
+  padding: 10px 0;  
+} */
 
 .menu li {  
   display: flex;
@@ -55,6 +59,18 @@ nav header {
 
 .search-bar {
   background-color: aliceblue;
+}
+
+#Layer_2 {
+  fill: white;
+}
+
+@media screen and (min-width: 992px) {
+  #Layer_2 {
+    width: 396px;
+    height: 60px;
+    margin: 10px auto 0;
+  }
 }
 
 /* main styles */
@@ -103,3 +119,6 @@ main {
   fill: #f72210;
 }
 
+footer {
+
+}

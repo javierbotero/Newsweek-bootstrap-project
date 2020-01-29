@@ -2,14 +2,12 @@ body {
   background-color: #f4f5f6;
 }
 
+.wrapper {
+  
+}
 
 
-.magazine-top, 
-.magazine-bottom, 
 .special, 
-.news-special, 
-.news,
-.news-special-children,
 .ideo-left,
 .content-video,
 .video-left,
@@ -19,7 +17,8 @@ body {
 .subscribe-child,
 .newsletter,
 .in-depth-content,
-.mail-susbcribe {
+.mail-susbcribe,
+.division {
   height: 300px;
   border: 1px solid red;
 }
@@ -168,6 +167,7 @@ nav header {
 }
 
 .wrapper {
+  overflow: hidden;
   max-width: 1310px;
   background-color: white;
 }
@@ -209,9 +209,51 @@ nav header {
   width: 55%;
 }
 
-.more-stories {
-  position: sticky;
-  top: -1500px;
+@media screen and (max-width: 991px) {
+  .sponsored-right {
+    margin: 0 30%;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  .more-stories {
+    position: sticky;
+    top: -1700px;
+  }
+  
+  .sticky-left {
+    position: sticky;
+    top: -1600px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .more-stories {
+    position: sticky;
+    top: -1000px;
+  }
+
+  .news-special-children-1 {
+    margin-top: -20px;
+  }
+
+  .border-custom {
+    border-bottom: 1px solid #d9d9d9;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .sponsored-right {
+    margin: 0;
+  }
+}
+
+.colorAd {
+  background-color: red;
+}
+
+.fontCustom {
+  font: bold 16px/26px "Roboto Condensed",sans-serif;
 }
 
 /* Same sules for various elements */

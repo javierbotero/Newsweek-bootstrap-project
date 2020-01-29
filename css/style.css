@@ -188,6 +188,32 @@ nav header {
   margin-bottom: 6px;
 }
 
+.tag {
+  color: #f72210;
+  font: bold 17px/16px "Roboto Condensed",sans-serif;
+  text-transform: uppercase;
+  padding: 8px 15px 9px;
+  background-color: rgba(255,255,255,.9);
+  position: relative;
+  bottom: 30px;
+}
+
+.sponsored {
+  color: #3581f4;
+  font: bold 17px/16px "Roboto Condensed",sans-serif;
+  text-transform: uppercase;
+  padding: 8px 15px 9px;
+  background-color: rgba(255,255,255,.9);
+  position: relative;
+  bottom: 30px;
+  width: 55%;
+}
+
+.more-stories {
+  position: sticky;
+  top: -1500px;
+}
+
 /* Same sules for various elements */
 
 .slideShows,
@@ -232,3 +258,7 @@ a {
 footer {
 
 }
+
+/* Ordering things from 767px width to down */
+
+

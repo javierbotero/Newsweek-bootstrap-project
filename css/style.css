@@ -2,23 +2,15 @@ body {
   background-color: #f4f5f6;
 }
 
-.wrapper {
-  
-}
-
-
 .special, 
 .ideo-left,
-.content-video,
-.video-left,
 .slideshows-children,
 .categories-US,
 .subscribeBottom,
 .subscribe-child,
 .newsletter,
 .in-depth-content,
-.mail-susbcribe,
-.division {
+.mail-susbcribe {
   height: 300px;
   border: 1px solid red;
 }
@@ -167,7 +159,7 @@ nav header {
 }
 
 .wrapper {
-  overflow: hidden;
+  /* overflow: hidden; */
   max-width: 1310px;
   background-color: white;
 }
@@ -215,20 +207,13 @@ nav header {
   }
 }
 
-@media screen and (min-width: 991px) {
-  .more-stories {
-    position: sticky;
-    top: -1700px;
-  }
-  
-  .sticky-left {
-    position: sticky;
-    top: -1600px;
-  }
-}
-
 @media screen and (min-width: 768px) {
   .more-stories {
+    position: sticky;
+    top: -1000px;
+  }
+
+  .sticky-left {
     position: sticky;
     top: -1000px;
   }
@@ -302,5 +287,4 @@ footer {
 }
 
 /* Ordering things from 767px width to down */
-
 

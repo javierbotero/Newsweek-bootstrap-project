@@ -241,6 +241,25 @@ nav header {
   font: bold 16px/26px "Roboto Condensed",sans-serif;
 }
 
+.info-video {
+  background-color: black;
+}
+
+.video-pic-big {
+  background: url('https://d.newsweek.com/en/full/1555347/newsweek-conversations-paul-wesley.jpg?w=486&h=315&f=78f0771c8fbfb19e3f231a48832b7a20') no-repeat center;
+  background-size: cover;
+}
+
+.video-options-right {
+  height: 33.333%;
+}
+
+.video-pic-small {
+  background: url("https://d.newsweek.com/en/full/1555350/newsweek-conversations-leslie-grossman.jpg?w=173&h=104&f=b810dcbe860058739bb5ae4114710a95") no-repeat center;
+  background-size: cover;
+  height: 100%;
+}
+
 /* Same sules for various elements */
 
 .slideShows,

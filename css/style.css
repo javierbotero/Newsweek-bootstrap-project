@@ -4,8 +4,6 @@ body {
 
 .special, 
 .ideo-left,
-.slideshows-children,
-.categories-US,
 .subscribeBottom,
 .subscribe-child,
 .newsletter,
@@ -228,9 +226,11 @@ nav header {
 }
 
 @media screen and (max-width: 768px) {
+
   .sponsored-right {
     margin: 0;
   }
+
 }
 
 .colorAd {
@@ -281,10 +281,18 @@ a {
   color: black;
 }
 
+.icon-slide {
+  background: url("https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png") no-repeat center;
+  position: relative;
+  bottom: 36px;
+  color: red;
+  padding: 15px 20px;
+  background-size: cover;
+}
+
 /* End same sules for various elements */
 
 .categories-mini {
-  border: 1px solid red;
   height: 33.3%;
 }
 

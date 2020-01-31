@@ -2,17 +2,6 @@ body {
   background-color: #f4f5f6;
 }
 
-.special, 
-.ideo-left,
-.subscribeBottom,
-.subscribe-child,
-.newsletter,
-.in-depth-content,
-.mail-susbcribe {
-  height: 300px;
-  border: 1px solid red;
-}
-
 /* change some properties from bootstrap classes */
 
  /* nav bar styles */
@@ -29,7 +18,7 @@ nav header {
   text-align: right;
 }
 
-#arrow-right {
+.arrow-right {
   width: 10px;
   fill: #f72210;
 }
@@ -290,6 +279,23 @@ a {
   background-size: cover;
 }
 
+.card-subscribe {
+  background: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5") no-repeat cover/center;
+}
+
+.arrow-right-1 {
+  width: 10px;
+  fill: white;
+}
+
+.subscribe-button-1 {
+  background-color: red;
+  color: white; 
+  font: bold 18px/14px 'Roboto Condensed', sans-serif;
+  text-transform: uppercase;
+  padding: 6px 11px;
+ 
+}
 /* End same sules for various elements */
 
 .categories-mini {

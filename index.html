@@ -7,7 +7,6 @@
     <title>NewsWeek-cloneProject</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-    <script src="https://kit.fontawesome.com/be6c8de5f0.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -24,8 +23,23 @@
             </header>
             <div class="col subscribe pt-lg-5 righ-data">
                 <a href="#" class="mr-3 text-white sign-in">Sign in</a>
-                <a href="#" class="subscribe-button-1">
+                <a href="#" class="subscribe-button">
                     Subscribe
+                    <svg version="1.1" class="align-middle arrow-right" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 8 14" style="enable-background:new 0 0 8 14;" xml:space="preserve">
+                        <g id="arrow-right">
+                          <defs>
+                          <rect id="SVGID_1_" width="8" height="14"></rect>
+                          </defs>
+                          <clipPath id="SVGID_2_">
+                          <use xlink:href="#SVGID_1_" style="overflow:visible;"></use>
+                          </clipPath>
+                          <g id="Shape_1" class="st0">
+                          <g>
+                          <polygon class="st1" points="8,7 1.1,0 0,1.1 5.9,7 0,12.9 1.1,14 8,7 8,7	"></polygon>
+                          </g>
+                          </g>
+                        </g>
+                       </svg>   
                 </a>
                 <div class="red-shape d-none d-lg-block"></div>
                 <div class="red-shape-square d-none d-lg-block"></div>
@@ -66,7 +80,6 @@
                 </li>   
             </ul>
             <div class="search-bar col mt-3 d-none d-lg-block bg-white">
-                <label class="element-invisible" for="edit-search-block-form--4">Search</label>
                 <input title="Enter the terms you wish to search for." placeholder="Search" type="text" id="edit-search-block-form--4" name="search_block_form" value="" size="15" maxlength="128" class="form-text">
             </div>
         </nav>
@@ -74,12 +87,12 @@
             <section class="row m-0 three-col">
                  <header class="hide-headers">
                  </header>
-                 <div class="col-12 order-2 col-md-5 order-md-1 col-lg order-lg-1 left">
+                 <div class="col-12 order-2 col-md-5 order-md-1 col-lg-3 order-lg-1 left">
                      <div>
                         <h4 class="tag-news">Featured Stories</h4>
                         <article  class="card-article card pb-3 border-0">
                             <a href="#">
-                               <img class="card-img-top" src="https://d.newsweek.com/en/full/1563089/coronavirus-cases-deaths-countries-china.webp?w=397&h=265&q=90&f=acb9aef0d4ede7f707dece9fea98bb83" alt="image news">
+                               <img class="card-img-top" src="assets/coronavirus.jpg" alt="image news">
                                <span class="tag">Health</span> 
                             </a>
                             <div class="card-body py-2 px-0">
@@ -89,7 +102,7 @@
                         </article>
                         <article  class="card-article card pb-3 border-0">
                              <a href="#">
-                                <img class="card-img-top" src="https://d.newsweek.com/en/full/1563089/coronavirus-cases-deaths-countries-china.webp?w=397&h=265&q=90&f=acb9aef0d4ede7f707dece9fea98bb83" alt="image news">
+                                <img class="card-img-top" src="assets/coronavirus.jpg" alt="image news">
                                 <span class="tag">Health</span> 
                              </a>
                              <div class="card-body py-2 px-0">
@@ -99,7 +112,7 @@
                          </article>
                          <article  class="card-article card pb-3 border-0">
                              <a href="#">
-                                <img class="card-img-top" src="https://d.newsweek.com/en/full/1563089/coronavirus-cases-deaths-countries-china.webp?w=397&h=265&q=90&f=acb9aef0d4ede7f707dece9fea98bb83" alt="image news">
+                                <img class="card-img-top" src="assets/coronavirus.jpg" alt="image news">
                                 <span class="tag">Health</span> 
                              </a>
                              <div class="card-body py-2 px-0">
@@ -109,7 +122,7 @@
                          </article>
                          <article  class="card-article card pb-3 border-0">
                               <a href="#">
-                                 <img class="card-img-top" src="https://d.newsweek.com/en/full/1563089/coronavirus-cases-deaths-countries-china.webp?w=397&h=265&q=90&f=acb9aef0d4ede7f707dece9fea98bb83" alt="image news">
+                                 <img class="card-img-top" src="assets/coronavirus.jpg" alt="image news">
                                  <span class="tag">Health</span> 
                               </a>
                               <div class="card-body py-2 px-0">
@@ -120,7 +133,7 @@
                      </div>
                      <div class="sticky-left">
                         <div class="card">
-                          <img class="card-img-top" src="https://d.newsweek.com/en/full/1551965/wayne-state-university-college-nursing.jpg?w=343&h=229&l=0&t=0&f=4c20a90759627de34973d49221abcf5e" alt="Card image cap">
+                          <img class="card-img-top" src="assets/nurse.jpg" alt="Card image cap">
                           <span class="sponsored">Sponsored Insight</span> 
                           <div class="card-body">
                             <h5 class="card-title font-weight-bold text-dark">Nurses - The Real Medical Heroes of 2020</h5>
@@ -128,7 +141,7 @@
                           </div>
                         </div>
                         <div class="card">
-                          <img class="card-img-top" src="https://d.newsweek.com/en/full/1551965/wayne-state-university-college-nursing.jpg?w=343&h=229&l=0&t=0&f=4c20a90759627de34973d49221abcf5e" alt="Card image cap">
+                          <img class="card-img-top" src="assets/nurse.jpg" alt="Card image cap">
                           <span class="sponsored">Sponsored Insight</span> 
                           <div class="card-body">
                             <h5 class="card-title font-weight-bold text-dark">Nurses - The Real Medical Heroes of 2020</h5>
@@ -136,7 +149,7 @@
                           </div>
                         </div>
                         <div class="card">
-                          <img class="card-img-top" src="https://d.newsweek.com/en/full/1551965/wayne-state-university-college-nursing.jpg?w=343&h=229&l=0&t=0&f=4c20a90759627de34973d49221abcf5e" alt="Card image cap">
+                          <img class="card-img-top" src="assets/nurse.jpg" alt="Card image cap">
                           <span class="sponsored">Sponsored Insight</span> 
                           <div class="card-body">
                             <h5 class="card-title font-weight-bold text-dark">Nurses - The Real Medical Heroes of 2020</h5>
@@ -144,7 +157,7 @@
                           </div>
                         </div>
                         <div class="card">
-                          <img class="card-img-top" src="https://d.newsweek.com/en/full/1551965/wayne-state-university-college-nursing.jpg?w=343&h=229&l=0&t=0&f=4c20a90759627de34973d49221abcf5e" alt="Card image cap">
+                          <img class="card-img-top" src="assets/nurse.jpg" alt="Card image cap">
                           <span class="sponsored">Sponsored Insight</span> 
                           <div class="card-body">
                             <h5 class="card-title font-weight-bold text-dark">Nurses - The Real Medical Heroes of 2020</h5>
@@ -152,7 +165,7 @@
                           </div>
                         </div>
                         <div class="card">
-                          <img class="card-img-top" src="https://d.newsweek.com/en/full/1551965/wayne-state-university-college-nursing.jpg?w=343&h=229&l=0&t=0&f=4c20a90759627de34973d49221abcf5e" alt="Card image cap">
+                          <img class="card-img-top" src="assets/nurse.jpg" alt="Card image cap">
                           <span class="sponsored">Sponsored Insight</span> 
                           <div class="card-body">
                             <h5 class="card-title font-weight-bold text-dark">Nurses - The Real Medical Heroes of 2020</h5>
@@ -161,12 +174,12 @@
                         </div>
                      </div>
                  </div>
-                 <div class="col-12 order-1 col-md-7 order-md-2 col-lg-5 order-lg-2 d-flex flex-column center">
+                 <div class="col-12 order-1 col-md-7 order-md-2 col-lg-6 order-lg-2 d-flex flex-column center">
                      <div class="order-1 order-sm-1 order-md-1">
                          <h4 class="tag-news">Top Story</h4>
                          <article  class="card-article card pb-3 border-0">
                              <a href="#">
-                                <img class="card-img-top" src="https://d.newsweek.com/en/full/1561558/saudi-picture.jpg?w=343&h=229&f=c38d1701b1898e7dcc79c2e2dc3aef4a" alt="image news">
+                                <img class="card-img-top" src="assets/coronavirus2.jpg" alt="image news">
                                 <span class="tag">U.S.</span>
                             </a>
                              <div class="card-body py-2 px-0">
@@ -178,57 +191,57 @@
                      <div class="more-stories order-2 order-md-3">
                         <h4 class="tag-news">More Stories</h4>
                          <article class="mrst-card py-3 border-top">
-                             <img class="float-left mr-3 mb-3" src="https://d.newsweek.com/en/full/1563078/mahmoud-abbas-donald-trump-peace-plan-israel.webp?w=135&h=90&f=20f1000bda130bd8de90c18e28e7ab69" alt="image-news">
+                             <img class="float-left mr-3 mb-3 responsiveStories" src="assets/palestinians.jpeg" alt="image-news">
                              <h4><a href="#">Palestinian Leader Brands Trump 'a Dog' as Region Braces for U.S. Deal</a></h4>
                              <p>President Donald Trump is expected to unveil his peace plan alongside Israeli Prime Minister Benjamin Netanyahu in Washington, D.C.</p>
                          </article>
                          <article class="mrst-card py-3 border-top">
-                             <img class="float-left mr-3 mb-3" src="https://d.newsweek.com/en/full/1563078/mahmoud-abbas-donald-trump-peace-plan-israel.webp?w=135&h=90&f=20f1000bda130bd8de90c18e28e7ab69" alt="image-news">
+                             <img class="float-left mr-3 mb-3 responsiveStories" src="assets/palestinians.jpeg" alt="image-news">
                              <h4><a href="#">Palestinian Leader Brands Trump 'a Dog' as Region Braces for U.S. Deal</a></h4>
                              <p>President Donald Trump is expected to unveil his peace plan alongside Israeli Prime Minister Benjamin Netanyahu in Washington, D.C.</p>
                          </article>
                          <article class="mrst-card py-3 border-top">
-                             <img class="float-left mr-3 mb-3" src="https://d.newsweek.com/en/full/1563078/mahmoud-abbas-donald-trump-peace-plan-israel.webp?w=135&h=90&f=20f1000bda130bd8de90c18e28e7ab69" alt="image-news">
+                             <img class="float-left mr-3 mb-3 responsiveStories" src="assets/palestinians.jpeg" alt="image-news">
                              <h4><a href="#">Palestinian Leader Brands Trump 'a Dog' as Region Braces for U.S. Deal</a></h4>
                              <p>President Donald Trump is expected to unveil his peace plan alongside Israeli Prime Minister Benjamin Netanyahu in Washington, D.C.</p>
                          </article>
                          <article class="mrst-card py-3 border-top">
-                             <img class="float-left mr-3 mb-3" src="https://d.newsweek.com/en/full/1563078/mahmoud-abbas-donald-trump-peace-plan-israel.webp?w=135&h=90&f=20f1000bda130bd8de90c18e28e7ab69" alt="image-news">
+                             <img class="float-left mr-3 mb-3 responsiveStories" src="assets/palestinians.jpeg" alt="image-news">
                              <h4><a href="#">Palestinian Leader Brands Trump 'a Dog' as Region Braces for U.S. Deal</a></h4>
                              <p>President Donald Trump is expected to unveil his peace plan alongside Israeli Prime Minister Benjamin Netanyahu in Washington, D.C.</p>
                          </article>
                          <article class="mrst-card py-3 border-top">
-                             <img class="float-left mr-3 mb-3" src="https://d.newsweek.com/en/full/1563078/mahmoud-abbas-donald-trump-peace-plan-israel.webp?w=135&h=90&f=20f1000bda130bd8de90c18e28e7ab69" alt="image-news">
+                             <img class="float-left mr-3 mb-3 responsiveStories" src="assets/palestinians.jpeg" alt="image-news">
                              <h4><a href="#">Palestinian Leader Brands Trump 'a Dog' as Region Braces for U.S. Deal</a></h4>
                              <p>President Donald Trump is expected to unveil his peace plan alongside Israeli Prime Minister Benjamin Netanyahu in Washington, D.C.</p>
                          </article>
                          <article class="mrst-card py-3 border-top">
-                             <img class="float-left mr-3 mb-3" src="https://d.newsweek.com/en/full/1563078/mahmoud-abbas-donald-trump-peace-plan-israel.webp?w=135&h=90&f=20f1000bda130bd8de90c18e28e7ab69" alt="image-news">
+                             <img class="float-left mr-3 mb-3 responsiveStories" src="assets/palestinians.jpeg" alt="image-news">
                              <h4><a href="#">Palestinian Leader Brands Trump 'a Dog' as Region Braces for U.S. Deal</a></h4>
                              <p>President Donald Trump is expected to unveil his peace plan alongside Israeli Prime Minister Benjamin Netanyahu in Washington, D.C.</p>
                          </article>
                          <article class="mrst-card py-3 border-top">
-                             <img class="float-left mr-3 mb-3" src="https://d.newsweek.com/en/full/1563078/mahmoud-abbas-donald-trump-peace-plan-israel.webp?w=135&h=90&f=20f1000bda130bd8de90c18e28e7ab69" alt="image-news">
+                             <img class="float-left mr-3 mb-3 responsiveStories" src="assets/palestinians.jpeg" alt="image-news">
                              <h4><a href="#">Palestinian Leader Brands Trump 'a Dog' as Region Braces for U.S. Deal</a></h4>
                              <p>President Donald Trump is expected to unveil his peace plan alongside Israeli Prime Minister Benjamin Netanyahu in Washington, D.C.</p>
                          </article>
                          <article class="mrst-card py-3 border-top">
-                             <img class="float-left mr-3 mb-3" src="https://d.newsweek.com/en/full/1563078/mahmoud-abbas-donald-trump-peace-plan-israel.webp?w=135&h=90&f=20f1000bda130bd8de90c18e28e7ab69" alt="image-news">
+                             <img class="float-left mr-3 mb-3 responsiveStories" src="assets/palestinians.jpeg" alt="image-news">
                              <h4><a href="#">Palestinian Leader Brands Trump 'a Dog' as Region Braces for U.S. Deal</a></h4>
                              <p>President Donald Trump is expected to unveil his peace plan alongside Israeli Prime Minister Benjamin Netanyahu in Washington, D.C.</p>
                          </article>
                          <article class="mrst-card py-3 border-top">
-                             <img class="float-left mr-3 mb-3" src="https://d.newsweek.com/en/full/1563078/mahmoud-abbas-donald-trump-peace-plan-israel.webp?w=135&h=90&f=20f1000bda130bd8de90c18e28e7ab69" alt="image-news">
+                             <img class="float-left mr-3 mb-3 responsiveStories" src="assets/palestinians.jpeg" alt="image-news">
                              <h4><a href="#">Palestinian Leader Brands Trump 'a Dog' as Region Braces for U.S. Deal</a></h4>
                              <p>President Donald Trump is expected to unveil his peace plan alongside Israeli Prime Minister Benjamin Netanyahu in Washington, D.C.</p>
                          </article>
                          <article class="mrst-card py-3 border-top">
-                             <img class="float-left mr-3 mb-3" src="https://d.newsweek.com/en/full/1563078/mahmoud-abbas-donald-trump-peace-plan-israel.webp?w=135&h=90&f=20f1000bda130bd8de90c18e28e7ab69" alt="image-news">
+                             <img class="float-left mr-3 mb-3 responsiveStories" src="assets/palestinians.jpeg" alt="image-news">
                              <h4><a href="#">Palestinian Leader Brands Trump 'a Dog' as Region Braces for U.S. Deal</a></h4>
                              <p>President Donald Trump is expected to unveil his peace plan alongside Israeli Prime Minister Benjamin Netanyahu in Washington, D.C.</p>
                          </article>
                          <article class="mrst-card py-3 border-top">
-                             <img class="float-left mr-3 mb-3" src="https://d.newsweek.com/en/full/1563078/mahmoud-abbas-donald-trump-peace-plan-israel.webp?w=135&h=90&f=20f1000bda130bd8de90c18e28e7ab69" alt="image-news">
+                             <img class="float-left mr-3 mb-3 responsiveStories" src="assets/palestinians.jpeg" alt="image-news">
                              <h4><a href="#">Palestinian Leader Brands Trump 'a Dog' as Region Braces for U.S. Deal</a></h4>
                              <p>President Donald Trump is expected to unveil his peace plan alongside Israeli Prime Minister Benjamin Netanyahu in Washington, D.C.</p>
                          </article>
@@ -236,7 +249,7 @@
                      <div class="culture-travel order-3 order-md-2 order-lg-2 row">
                         <h4 class="tag-news col-12">Culture and Travel</h4>
                         <div class="card col-6 border-0">
-                          <img src="https://d.newsweek.com/en/full/1560458/kermode-bear.jpg?w=397&h=265&f=a567639832ec457fad0743d6fd6649c0" class="card-img-top" alt="...">
+                          <img src="assets/bear.jpg" class="card-img-top" alt="...">
                           <div class="card-body p-2">
                             <h5 class="card-title">In Search of the Elusive Spirit Bear in the 'Amazon of the North'</h5>
                             <p class="card-text">Canada's Great Bear Rainforest is the largest, most intact coastal temperate rainforest left on Earth and also home to the rare white Kermode Bear, of which there are less than 400 left.</p>
@@ -244,7 +257,7 @@
                           </div>
                         </div>
                         <div class="card col-6 border-0">
-                          <img src="https://d.newsweek.com/en/full/1560458/kermode-bear.jpg?w=397&h=265&f=a567639832ec457fad0743d6fd6649c0" class="card-img-top" alt="...">
+                          <img src="assets/bear.jpg" class="card-img-top" alt="...">
                           <div class="card-body p-2">
                             <h5 class="card-title">In Search of the Elusive Spirit Bear in the 'Amazon of the North'</h5>
                             <p class="card-text">Canada's Great Bear Rainforest is the largest, most intact coastal temperate rainforest left on Earth and also home to the rare white Kermode Bear, of which there are less than 400 left.</p>
@@ -252,7 +265,7 @@
                           </div>
                         </div>
                         <div class="card col-6 border-0">
-                          <img src="https://d.newsweek.com/en/full/1560458/kermode-bear.jpg?w=397&h=265&f=a567639832ec457fad0743d6fd6649c0" class="card-img-top" alt="...">
+                          <img src="assets/bear.jpg" class="card-img-top" alt="...">
                           <div class="card-body p-2">
                             <h5 class="card-title">In Search of the Elusive Spirit Bear in the 'Amazon of the North'</h5>
                             <p class="card-text">Canada's Great Bear Rainforest is the largest, most intact coastal temperate rainforest left on Earth and also home to the rare white Kermode Bear, of which there are less than 400 left.</p>
@@ -260,7 +273,7 @@
                           </div>
                         </div>
                         <div class="card col-6 border-0">
-                          <img src="https://d.newsweek.com/en/full/1560458/kermode-bear.jpg?w=397&h=265&f=a567639832ec457fad0743d6fd6649c0" class="card-img-top" alt="...">
+                          <img src="assets/bear.jpg" class="card-img-top" alt="...">
                           <div class="card-body p-2">
                             <h5 class="card-title">In Search of the Elusive Spirit Bear in the 'Amazon of the North'</h5>
                             <p class="card-text">Canada's Great Bear Rainforest is the largest, most intact coastal temperate rainforest left on Earth and also home to the rare white Kermode Bear, of which there are less than 400 left.</p>
@@ -269,46 +282,46 @@
                         </div>
                      </div>   
                  </div>
-                 <div class="col-12 order-3 col-md-12 order-md-3 col-lg order-lg-3 right">
+                 <div class="col-12 order-3 col-md-12 order-md-3 col-lg-3 order-lg-3 right">
                      <div class="opinion">
                         <h4 class="tag-news">Opinion</h4>
                          <article class="mrst-card py-3 border-top media">
-                             <img class="float-left picture-opinion pr-3" src="https://d.newsweek.com/en/full/97976/robert-reich.png?w=63&h=63&f=297351a03eaa549128026042394c9580" alt="image-news">
+                             <img class="float-left picture-opinion pr-3" src="assets/palestinians2.jpg" alt="image-news">
                              <div class="media-body">
                                 <h6><a href="#">Palestinian Leader Brands Trump 'a Dog' as Region Braces for U.S. Deal</a></h6>
                                 <h3 class="by">By Rovert Reich</h3>
                              </div>
                          </article>
                          <article class="mrst-card py-3 border-top media">
-                             <img class="float-left picture-opinion pr-3" src="https://d.newsweek.com/en/full/97976/robert-reich.png?w=63&h=63&f=297351a03eaa549128026042394c9580" alt="image-news">
+                             <img class="float-left picture-opinion pr-3" src="assets/palestinians2.jpg" alt="image-news">
                              <div class="media-body">
                                 <h6><a href="#">Palestinian Leader Brands Trump 'a Dog' as Region Braces for U.S. Deal</a></h6>
                                 <h3 class="by">By Rovert Reich</h3>
                              </div>
                          </article>
                          <article class="mrst-card py-3 border-top media">
-                             <img class="float-left picture-opinion pr-3" src="https://d.newsweek.com/en/full/97976/robert-reich.png?w=63&h=63&f=297351a03eaa549128026042394c9580" alt="image-news">
+                             <img class="float-left picture-opinion pr-3" src="assets/palestinians2.jpg" alt="image-news">
                              <div class="media-body">
                                 <h6><a href="#">Palestinian Leader Brands Trump 'a Dog' as Region Braces for U.S. Deal</a></h6>
                                 <h3 class="by">By Rovert Reich</h3>
                              </div>
                          </article>
                          <article class="mrst-card py-3 border-top media">
-                             <img class="float-left picture-opinion pr-3" src="https://d.newsweek.com/en/full/97976/robert-reich.png?w=63&h=63&f=297351a03eaa549128026042394c9580" alt="image-news">
+                             <img class="float-left picture-opinion pr-3" src="assets/palestinians2.jpg" alt="image-news">
                              <div class="media-body">
                                 <h6><a href="#">Palestinian Leader Brands Trump 'a Dog' as Region Braces for U.S. Deal</a></h6>
                                 <h3 class="by">By Rovert Reich</h3>
                              </div>
                          </article>
                          <article class="mrst-card py-3 border-top media">
-                             <img class="float-left picture-opinion pr-3" src="https://d.newsweek.com/en/full/97976/robert-reich.png?w=63&h=63&f=297351a03eaa549128026042394c9580" alt="image-news">
+                             <img class="float-left picture-opinion pr-3" src="assets/palestinians2.jpg" alt="image-news">
                              <div class="media-body">
                                 <h6><a href="#">Palestinian Leader Brands Trump 'a Dog' as Region Braces for U.S. Deal</a></h6>
                                 <h3 class="by">By Rovert Reich</h3>
                              </div>
                          </article>
                          <article class="mrst-card py-3 border-top media">
-                             <img class="float-left picture-opinion pr-3" src="https://d.newsweek.com/en/full/97976/robert-reich.png?w=63&h=63&f=297351a03eaa549128026042394c9580" alt="image-news">
+                             <img class="float-left picture-opinion pr-3" src="assets/palestinians2.jpg" alt="image-news">
                              <div class="media-body">
                                 <h6><a href="#">Palestinian Leader Brands Trump 'a Dog' as Region Braces for U.S. Deal</a></h6>
                                 <h3 class="by">By Rovert Reich</h3>
@@ -319,43 +332,43 @@
                         <h4 class="tag-news">Latest News</h4>
                         <ul class="list-unstyled">
                             <li class="media border-bottom border-secondary py-3">
-                                <img class="w-25 align-self-center" src="https://d.newsweek.com/en/full/1563143/romeo-juliet-house-verona.jpg?w=397&h=265&l=49&t=36&f=66dd52a33aa21fe5620cccfb277d73b6" alt="Verona Juliette's house">
+                                <img class="w-25 align-self-center" src="assets/verona.jpg" alt="Verona Juliette's house">
                                 <div class="media-body pl-3">
                                     <a class="font-weight-bold" href="#">Airbnb Offering Stay in Juliet's House in Verona on Valentine's Day</a>
                                 </div>
                             </li>
                             <li class="media border-bottom border-secondary py-3">
-                                <img class="w-25 align-self-center" src="https://d.newsweek.com/en/full/1563143/romeo-juliet-house-verona.jpg?w=397&h=265&l=49&t=36&f=66dd52a33aa21fe5620cccfb277d73b6" alt="Verona Juliette's house">
+                                <img class="w-25 align-self-center" src="assets/verona.jpg" alt="Verona Juliette's house">
                                 <div class="media-body pl-3">
                                     <a class="font-weight-bold" href="#">Airbnb Offering Stay in Juliet's House in Verona on Valentine's Day</a>
                                 </div>
                             </li>
                             <li class="media border-bottom border-secondary py-3">
-                                <img class="w-25 align-self-center" src="https://d.newsweek.com/en/full/1563143/romeo-juliet-house-verona.jpg?w=397&h=265&l=49&t=36&f=66dd52a33aa21fe5620cccfb277d73b6" alt="Verona Juliette's house">
+                                <img class="w-25 align-self-center" src="assets/verona.jpg" alt="Verona Juliette's house">
                                 <div class="media-body pl-3">
                                     <a class="font-weight-bold" href="#">Airbnb Offering Stay in Juliet's House in Verona on Valentine's Day</a>
                                 </div>
                             </li>
                             <li class="media border-bottom border-secondary py-3">
-                                <img class="w-25 align-self-center" src="https://d.newsweek.com/en/full/1563143/romeo-juliet-house-verona.jpg?w=397&h=265&l=49&t=36&f=66dd52a33aa21fe5620cccfb277d73b6" alt="Verona Juliette's house">
+                                <img class="w-25 align-self-center" src="assets/verona.jpg" alt="Verona Juliette's house">
                                 <div class="media-body pl-3">
                                     <a class="font-weight-bold" href="#">Airbnb Offering Stay in Juliet's House in Verona on Valentine's Day</a>
                                 </div>
                             </li>
                             <li class="media border-bottom border-secondary py-3">
-                                <img class="w-25 align-self-center" src="https://d.newsweek.com/en/full/1563143/romeo-juliet-house-verona.jpg?w=397&h=265&l=49&t=36&f=66dd52a33aa21fe5620cccfb277d73b6" alt="Verona Juliette's house">
+                                <img class="w-25 align-self-center" src="assets/verona.jpg" alt="Verona Juliette's house">
                                 <div class="media-body pl-3">
                                     <a class="font-weight-bold" href="#">Airbnb Offering Stay in Juliet's House in Verona on Valentine's Day</a>
                                 </div>
                             </li>
                             <li class="media border-bottom border-secondary py-3">
-                                <img class="w-25 align-self-center" src="https://d.newsweek.com/en/full/1563143/romeo-juliet-house-verona.jpg?w=397&h=265&l=49&t=36&f=66dd52a33aa21fe5620cccfb277d73b6" alt="Verona Juliette's house">
+                                <img class="w-25 align-self-center" src="assets/verona.jpg" alt="Verona Juliette's house">
                                 <div class="media-body pl-3">
                                     <a class="font-weight-bold" href="#">Airbnb Offering Stay in Juliet's House in Verona on Valentine's Day</a>
                                 </div>
                             </li>
                             <li class="media border-bottom border-secondary py-3">
-                                <img class="w-25 align-self-center" src="https://d.newsweek.com/en/full/1563143/romeo-juliet-house-verona.jpg?w=397&h=265&l=49&t=36&f=66dd52a33aa21fe5620cccfb277d73b6" alt="Verona Juliette's house">
+                                <img class="w-25 align-self-center" src="assets/verona.jpg" alt="Verona Juliette's house">
                                 <div class="media-body pl-3">
                                     <a class="font-weight-bold" href="#">Airbnb Offering Stay in Juliet's House in Verona on Valentine's Day</a>
                                 </div>
@@ -364,7 +377,7 @@
                      </div>
                      <div class="sponsored-right">
                         <div class="card">
-                          <img class="card-img-top" src="https://d.newsweek.com/en/full/1551965/wayne-state-university-college-nursing.jpg?w=343&h=229&l=0&t=0&f=4c20a90759627de34973d49221abcf5e" alt="Card image cap">
+                          <img class="card-img-top" src="assets/nurse2.jpg" alt="Card image cap">
                           <span class="sponsored">Sponsored Insight</span> 
                           <div class="card-body">
                             <h5 class="card-title font-weight-bold text-dark">Nurses - The Real Medical Heroes of 2020</h5>
@@ -372,7 +385,7 @@
                           </div>
                         </div>
                         <div class="card">
-                          <img class="card-img-top" src="https://d.newsweek.com/en/full/1551965/wayne-state-university-college-nursing.jpg?w=343&h=229&l=0&t=0&f=4c20a90759627de34973d49221abcf5e" alt="Card image cap">
+                          <img class="card-img-top" src="assets/nurse2.jpg" alt="Card image cap">
                           <span class="sponsored">Sponsored Insight</span> 
                           <div class="card-body">
                             <h5 class="card-title font-weight-bold text-dark">Nurses - The Real Medical Heroes of 2020</h5>
@@ -380,7 +393,7 @@
                           </div>
                         </div>
                         <div class="card">
-                          <img class="card-img-top" src="https://d.newsweek.com/en/full/1551965/wayne-state-university-college-nursing.jpg?w=343&h=229&l=0&t=0&f=4c20a90759627de34973d49221abcf5e" alt="Card image cap">
+                          <img class="card-img-top" src="assets/nurse2.jpg" alt="Card image cap">
                           <span class="sponsored">Sponsored Insight</span> 
                           <div class="card-body">
                             <h5 class="card-title font-weight-bold text-dark">Nurses - The Real Medical Heroes of 2020</h5>
@@ -388,7 +401,7 @@
                           </div>
                         </div>
                         <div class="card">
-                          <img class="card-img-top" src="https://d.newsweek.com/en/full/1551965/wayne-state-university-college-nursing.jpg?w=343&h=229&l=0&t=0&f=4c20a90759627de34973d49221abcf5e" alt="Card image cap">
+                          <img class="card-img-top" src="assets/nurse2.jpg" alt="Card image cap">
                           <span class="sponsored">Sponsored Insight</span> 
                           <div class="card-body">
                             <h5 class="card-title font-weight-bold text-dark">Nurses - The Real Medical Heroes of 2020</h5>
@@ -396,7 +409,7 @@
                           </div>
                         </div>
                         <div class="card">
-                          <img class="card-img-top" src="https://d.newsweek.com/en/full/1551965/wayne-state-university-college-nursing.jpg?w=343&h=229&l=0&t=0&f=4c20a90759627de34973d49221abcf5e" alt="Card image cap">
+                          <img class="card-img-top" src="assets/nurse2.jpg" alt="Card image cap">
                           <span class="sponsored">Sponsored Insight</span> 
                           <div class="card-body">
                             <h5 class="card-title font-weight-bold text-dark">Nurses - The Real Medical Heroes of 2020</h5>
@@ -404,7 +417,7 @@
                           </div>
                         </div>
                         <div class="card">
-                          <img class="card-img-top" src="https://d.newsweek.com/en/full/1551965/wayne-state-university-college-nursing.jpg?w=343&h=229&l=0&t=0&f=4c20a90759627de34973d49221abcf5e" alt="Card image cap">
+                          <img class="card-img-top" src="assets/nurse2.jpg" alt="Card image cap">
                           <span class="sponsored">Sponsored Insight</span> 
                           <div class="card-body">
                             <h5 class="card-title font-weight-bold text-dark">Nurses - The Real Medical Heroes of 2020</h5>
@@ -417,15 +430,15 @@
              <section class="row m-0 magazine">
                  <div class="col-12 row p-0 m-0 magazine-top my-3">
                     <div class="col-12 py-2 my-2 col-md-9 offset-md-3 d-flex justify-content-center align-items-center pt-md-2 pb-md-2 mb-md-3 border-custom">
-                         <span class="icon"></span>
+                         <span class="icon">N</span>
                          <h3 class="m-0">In the magazine</h3>
                     </div>  
                     <div class="col-12 col-md-3 news-special-children-1">
-                        <img class="w-100 h-100" src="https://d.newsweek.com/en/full/1560513/january-24-31-2020-cover.jpg?w=360&h=480&q=90&f=934b1f46e8cfb6967583ca1d5fb3ff5a" class="card-img-top" alt="something">
+                        <img class="w-100 h-100" src="assets/africaPoster.jpg" class="card-img-top" alt="something">
                     </div>  
                     <div class="col-12 my-3 m-md-0 col-md-3">
                        <div class="card w-100 h-100 border-0">
-                         <img src="https://d.newsweek.com/en/full/1559646/fe-nigeria-01-523787136-banner.jpg?w=466&h=311&l=50&t=43&q=90&f=e36653b42dd59923b263ccf8ac9da38e" class="card-img-top" alt="...">
+                         <img src="assets/blacksChina.jpg" class="card-img-top" alt="...">
                          <div class="card-body p-0">
                             <div class="py-2">
                                 <span class="btn btn-danger rounded-0 border-0 colorAd fontCustom text-uppercase">Cover</span>
@@ -437,7 +450,7 @@
                     </div>
                     <div class="col-12 my-3 m-md-0 col-md-3">
                          <div class="card w-100 h-100 border-0">
-                           <img src="https://d.newsweek.com/en/full/1559646/fe-nigeria-01-523787136-banner.jpg?w=466&h=311&l=50&t=43&q=90&f=e36653b42dd59923b263ccf8ac9da38e" class="card-img-top" alt="...">
+                           <img src="assets/blacksChina.jpg" class="card-img-top" alt="...">
                            <div class="card-body p-0">
                               <div class="py-2">
                                   <span class="btn btn-danger rounded-0 border-0 colorAd fontCustom text-uppercase">Cover</span>
@@ -449,7 +462,7 @@
                     </div>
                     <div class="col-12 my-3 m-md-0 col-md-3">
                          <div class="card w-100 h-100 border-0">
-                           <img src="https://d.newsweek.com/en/full/1559646/fe-nigeria-01-523787136-banner.jpg?w=466&h=311&l=50&t=43&q=90&f=e36653b42dd59923b263ccf8ac9da38e" class="card-img-top" alt="...">
+                           <img src="assets/blacksChina.jpg" class="card-img-top" alt="...">
                            <div class="card-body p-0">
                               <div class="py-2">
                                   <span class="btn btn-danger rounded-0 border-0 colorAd fontCustom text-uppercase">Cover</span>
@@ -463,7 +476,7 @@
                  <div class="col-12 row p-0 m-0 magazine-bottom my-3 news">
                      <div class="col-12 my-3 m-md-0 col-md-3">
                          <div class="card w-100 h-100 border-0">
-                           <img src="https://d.newsweek.com/en/full/1559646/fe-nigeria-01-523787136-banner.jpg?w=466&h=311&l=50&t=43&q=90&f=e36653b42dd59923b263ccf8ac9da38e" class="card-img-top" alt="...">
+                           <img src="assets/blacksChina.jpg" class="card-img-top" alt="...">
                            <div class="card-body p-0">
                               <div class="py-2">
                                   <span class="btn btn-danger rounded-0 border-0 colorAd fontCustom text-uppercase">Cover</span>
@@ -475,7 +488,7 @@
                      </div>
                      <div class="col-12 my-3 m-md-0 col-md-3">
                          <div class="card w-100 h-100 border-0">
-                            <img src="https://d.newsweek.com/en/full/1559646/fe-nigeria-01-523787136-banner.jpg?w=466&h=311&l=50&t=43&q=90&f=e36653b42dd59923b263ccf8ac9da38e" class="card-img-top" alt="...">
+                            <img src="assets/blacksChina.jpg" class="card-img-top" alt="...">
                             <div class="card-body p-0">
                                <div class="py-2">
                                    <span class="btn btn-danger rounded-0 border-0 colorAd fontCustom text-uppercase">Cover</span>
@@ -487,7 +500,7 @@
                      </div>
                      <div class="col-12 my-3 m-md-0 col-md-3">
                          <div class="card w-100 h-100 border-0">
-                           <img src="https://d.newsweek.com/en/full/1559646/fe-nigeria-01-523787136-banner.jpg?w=466&h=311&l=50&t=43&q=90&f=e36653b42dd59923b263ccf8ac9da38e" class="card-img-top" alt="...">
+                           <img src="assets/blacksChina.jpg" class="card-img-top" alt="...">
                            <div class="card-body p-0">
                               <div class="py-2">
                                   <span class="btn btn-danger rounded-0 border-0 colorAd fontCustom text-uppercase">Cover</span>
@@ -499,7 +512,7 @@
                      </div>
                      <div class="col-12 my-3 m-md-0 col-md-3">
                          <div class="card w-100 h-100 border-0">
-                           <img src="https://d.newsweek.com/en/full/1559646/fe-nigeria-01-523787136-banner.jpg?w=466&h=311&l=50&t=43&q=90&f=e36653b42dd59923b263ccf8ac9da38e" class="card-img-top" alt="...">
+                           <img src="assets/blacksChina.jpg" class="card-img-top" alt="...">
                            <div class="card-body p-0">
                               <div class="py-2">
                                   <span class="btn btn-danger rounded-0 border-0 colorAd fontCustom text-uppercase">Cover</span>
@@ -513,13 +526,13 @@
              </section>
              <div class="row m-0 videos">
                  <div class="row d-flex justify-content-center w-100">
-                     <span class="icon"></span>
+                     <span class="icon">N</span>
                      <h3 class="m-0">NEWSWEEK CONVERSATIONS</h3>
                  </div>
-                 <div class="d-md-none">
+                 <div class="d-md-none w-100">
                      <div class="info-video pb-3">
                         <figure>
-                            <img src="https://d.newsweek.com/en/full/1555347/newsweek-conversations-paul-wesley.jpg?w=486&h=315&f=78f0771c8fbfb19e3f231a48832b7a20" alt="image">
+                            <img class="w-100" src="assets/actor.jpg" alt="image">
                         </figure>
                         <h3 class="p-3"><a class="text-white font-weight-bold" href="#">The Vampire Diaries' Paul Wesley Talks Fame, Directing and CBS' 'Tell Me a Story'</a></h3>
                         <p class="text-light p-3">"I try my best not to drink the Kool-Aid too much, because that can be a slippery slope," Paul Wesley said about dealing with fame.</p>
@@ -527,21 +540,21 @@
                      </div>
                      <div class="info-video">
                         <div class="border border-white video-options-right">
-                            <img class="mr-3" src="https://d.newsweek.com/en/full/1555350/newsweek-conversations-leslie-grossman.jpg?w=173&h=104&f=b810dcbe860058739bb5ae4114710a95" alt="image">
+                            <img class="mr-3" src="assets/actress.jpg" alt="image">
                             <div class="text-white d-inline-block w-50 align-middle">
                                 <h8 class="mt-0">'American Horror Story's' Leslie Grossman Is the Definition of a Great Hollywood Character Actress</h8>
                                 21:04
                           </div>
                         </div> 
                         <div class="border border-white video-options-right">
-                            <img class="mr-3" src="https://d.newsweek.com/en/full/1555350/newsweek-conversations-leslie-grossman.jpg?w=173&h=104&f=b810dcbe860058739bb5ae4114710a95" alt="image">
+                            <img class="mr-3" src="assets/actress.jpg" alt="image">
                             <div class="text-white d-inline-block w-50 align-middle">
                                 <h8 class="mt-0">'American Horror Story's' Leslie Grossman Is the Definition of a Great Hollywood Character Actress</h8>
                                 21:04
                           </div>
                         </div> 
                         <div class="border border-white video-options-right">
-                            <img class="mr-3" src="https://d.newsweek.com/en/full/1555350/newsweek-conversations-leslie-grossman.jpg?w=173&h=104&f=b810dcbe860058739bb5ae4114710a95" alt="image">
+                            <img class="mr-3" src="assets/actress.jpg" alt="image">
                             <div class="text-white d-inline-block w-50 align-middle">
                                 <h8 class="mt-0">'American Horror Story's' Leslie Grossman Is the Definition of a Great Hollywood Character Actress</h8>
                                 21:04
@@ -586,13 +599,13 @@
              </div>
              <section class="row m-0 editorsPick">
                  <div class="col-12 d-flex justify-content-center align-items-center">
-                     <span class="icon"></span>
+                     <span class="icon">N</span>
                      <h3 class="m-0">EDITOR'S PICK</h3>
                  </div>
                  <div class="col-12 col-md-6 col-lg-3 news-special-children">
                     <article  class="card-article card pb-3 border-0">
                         <a href="#">
-                           <img class="card-img-top" src="https://d.newsweek.com/en/full/1563196/aurora-finland.jpg?w=397&h=295&f=092d1f2ac91cb118e76e8e045031f168" alt="image news">
+                           <img class="card-img-top" src="assets/auroraBor.jpeg" alt="image news">
                            <span class="tag">Health</span> 
                         </a>
                         <div class="card-body py-2 px-0">
@@ -604,7 +617,7 @@
                  <div class="col-12 col-md-6 col-lg-3 news-special-children">
                     <article  class="card-article card pb-3 border-0">
                          <a href="#">
-                            <img class="card-img-top" src="https://d.newsweek.com/en/full/1563196/aurora-finland.jpg?w=397&h=295&f=092d1f2ac91cb118e76e8e045031f168" alt="image news">
+                            <img class="card-img-top" src="assets/auroraBor.jpeg" alt="image news">
                             <span class="tag">Health</span> 
                          </a>
                          <div class="card-body py-2 px-0">
@@ -616,7 +629,7 @@
                  <div class="col-12 col-md-6 col-lg-3 news-special-children">
                     <article  class="card-article card pb-3 border-0">
                          <a href="#">
-                            <img class="card-img-top" src="https://d.newsweek.com/en/full/1563196/aurora-finland.jpg?w=397&h=295&f=092d1f2ac91cb118e76e8e045031f168" alt="image news">
+                            <img class="card-img-top" src="assets/auroraBor.jpeg" alt="image news">
                             <span class="tag">Health</span> 
                          </a>
                          <div class="card-body py-2 px-0">
@@ -628,7 +641,7 @@
                  <div class="col-12 col-md-6 col-lg-3 news-special-children">
                     <article  class="card-article card pb-3 border-0">
                         <a href="#">
-                           <img class="card-img-top" src="https://d.newsweek.com/en/full/1563196/aurora-finland.jpg?w=397&h=295&f=092d1f2ac91cb118e76e8e045031f168" alt="image news">
+                           <img class="card-img-top" src="assets/auroraBor.jpeg" alt="image news">
                            <span class="tag">Health</span> 
                         </a>
                         <div class="card-body py-2 px-0">
@@ -640,7 +653,7 @@
                  <div class="col-12 col-md-6 col-lg-3 news-special-children">
                     <article  class="card-article card pb-3 border-0">
                          <a href="#">
-                            <img class="card-img-top" src="https://d.newsweek.com/en/full/1563196/aurora-finland.jpg?w=397&h=295&f=092d1f2ac91cb118e76e8e045031f168" alt="image news">
+                            <img class="card-img-top" src="assets/auroraBor.jpeg" alt="image news">
                             <span class="tag">Health</span> 
                          </a>
                          <div class="card-body py-2 px-0">
@@ -652,7 +665,7 @@
                  <div class="col-12 col-md-6 col-lg-3 news-special-children">
                     <article  class="card-article card pb-3 border-0">
                         <a href="#">
-                           <img class="card-img-top" src="https://d.newsweek.com/en/full/1563196/aurora-finland.jpg?w=397&h=295&f=092d1f2ac91cb118e76e8e045031f168" alt="image news">
+                           <img class="card-img-top" src="assets/auroraBor.jpeg" alt="image news">
                            <span class="tag">Health</span> 
                         </a>
                         <div class="card-body py-2 px-0">
@@ -664,7 +677,7 @@
                  <div class="col-12 col-md-6 col-lg-3 news-special-children">
                     <article  class="card-article card pb-3 border-0">
                           <a href="#">
-                             <img class="card-img-top" src="https://d.newsweek.com/en/full/1563196/aurora-finland.jpg?w=397&h=295&f=092d1f2ac91cb118e76e8e045031f168" alt="image news">
+                             <img class="card-img-top" src="assets/auroraBor.jpeg" alt="image news">
                              <span class="tag">Health</span> 
                           </a>
                           <div class="card-body py-2 px-0">
@@ -676,7 +689,7 @@
                  <div class="col-12 col-md-6 col-lg-3 news-special-children">
                       <article  class="card-article card pb-3 border-0">
                           <a href="#">
-                             <img class="card-img-top" src="https://d.newsweek.com/en/full/1563196/aurora-finland.jpg?w=397&h=295&f=092d1f2ac91cb118e76e8e045031f168" alt="image news">
+                             <img class="card-img-top" src="assets/auroraBor.jpeg" alt="image news">
                              <span class="tag">Health</span> 
                           </a>
                           <div class="card-body py-2 px-0">
@@ -688,14 +701,14 @@
              </section>
              <section class="slideShows row m-0">
                  <div class="col-12 d-flex justify-content-center align-items-center">
-                      <span class="icon"></span>
+                      <span class="icon">N</span>
                       <h3 class="m-0">FEATURED SLIDESHOWS</h3>
                   </div>
                   <div class="col-md-4 slideshows-children">
                       <div class="card w-100 h-100 border-0">
                         <div>
                            <a href="#">
-                               <img src="https://d.newsweek.com/en/full/1560097/tozeur-tunisia.jpg?w=397&h=265&f=69a77ef1bd7e21c060a7b7685b05a73d" class="card-img-top" alt="image">
+                               <img src="assets/nature.jpg" class="card-img-top" alt="image">
                                <a class="icon-slide" href="#">11</a>
                            </a>
                         </div>
@@ -708,7 +721,7 @@
                       <div class="card w-100 h-100 border-0">
                          <div>
                             <a href="#">
-                                <img src="https://d.newsweek.com/en/full/1560097/tozeur-tunisia.jpg?w=397&h=265&f=69a77ef1bd7e21c060a7b7685b05a73d" class="card-img-top" alt="image">
+                                <img src="assets/nature.jpg" class="card-img-top" alt="image">
                                 <a class="icon-slide" href="#">11</a>
                             </a>
                          </div>
@@ -721,7 +734,7 @@
                     <div class="card w-100 h-100 border-0">
                        <div>
                           <a href="#">
-                              <img src="https://d.newsweek.com/en/full/1560097/tozeur-tunisia.jpg?w=397&h=265&f=69a77ef1bd7e21c060a7b7685b05a73d" class="card-img-top" alt="image">
+                              <img src="assets/nature.jpg" class="card-img-top" alt="image">
                               <a class="icon-slide" href="#">11</a>
                           </a>
                        </div>
@@ -734,7 +747,7 @@
                     <div class="card w-100 h-100 border-0">
                       <div>
                          <a href="#">
-                             <img src="https://d.newsweek.com/en/full/1560097/tozeur-tunisia.jpg?w=397&h=265&f=69a77ef1bd7e21c060a7b7685b05a73d" class="card-img-top" alt="image">
+                             <img src="assets/nature.jpg" class="card-img-top" alt="image">
                              <a class="icon-slide" href="#">11</a>
                          </a>
                       </div>
@@ -747,7 +760,7 @@
                     <div class="card w-100 h-100 border-0">
                       <div>
                          <a href="#">
-                             <img src="https://d.newsweek.com/en/full/1560097/tozeur-tunisia.jpg?w=397&h=265&f=69a77ef1bd7e21c060a7b7685b05a73d" class="card-img-top" alt="image">
+                             <img src="assets/nature.jpg" class="card-img-top" alt="image">
                              <a class="icon-slide" href="#">11</a>
                          </a>
                       </div>
@@ -760,7 +773,7 @@
                     <div class="card w-100 h-100 border-0">
                       <div>
                          <a href="#">
-                             <img src="https://d.newsweek.com/en/full/1560097/tozeur-tunisia.jpg?w=397&h=265&f=69a77ef1bd7e21c060a7b7685b05a73d" class="card-img-top" alt="image">
+                             <img src="assets/nature.jpg" class="card-img-top" alt="image">
                              <a class="icon-slide" href="#">11</a>
                          </a>
                       </div>
@@ -776,7 +789,7 @@
                    </div>
                    <div class="col-12 my-3 col-md-4 categories-US">
                        <div class="card w-100 h-100 border-0">
-                         <img src="https://d.newsweek.com/en/full/1563642/rhesus-macaques-india.jpg?w=397&h=265&f=e267df3f776f2aab24f9b192aed37d58" class="card-img-top" alt="image">
+                         <img src="assets/nature.jpg" class="card-img-top" alt="image">
                          <div class="card-body p-0 my-3">
                            <h5 class="card-text font-weight-bold">Relive the 'Star Wars' Saga at These Filming Locations</h5>
                          </div>
@@ -784,7 +797,7 @@
                    </div>
                    <div class="col-12 my-3 col-md-4 categories-US">
                        <div class="card w-100 h-100 border-0">
-                           <img src="https://d.newsweek.com/en/full/1563642/rhesus-macaques-india.jpg?w=397&h=265&f=e267df3f776f2aab24f9b192aed37d58" class="card-img-top" alt="image">
+                           <img src="assets/nature.jpg" class="card-img-top" alt="image">
                            <div class="card-body p-0 my-3">
                              <h5 class="card-text font-weight-bold">Relive the 'Star Wars' Saga at These Filming Locations</h5>
                            </div>
@@ -793,7 +806,7 @@
                    <div class="col-12 my-3 col-md-4 categories-US d-flex flex-column">
                        <div class="categories-mini border-bottom border-secondary pb-2 mb-2">
                           <div class="media">
-                              <img class="align-self-center" src="https://d.newsweek.com/en/full/1563634/who-praise-china-criticism-coronavirus.jpg?w=135&h=90&f=d67d3572a6718911f7b6fdd1d79bd47a" alt="Verona Juliette's house">
+                              <img class="align-self-center w-50" src="assets/politic.jpg" alt="Verona Juliette's house">
                               <div class="media-body pl-3">
                                   <a class="font-weight-bold" href="#">HO Praises China As Some Question Coronavirus Transparency</a>
                               </div>
@@ -801,7 +814,7 @@
                        </div>
                        <div class="categories-mini border-bottom border-secondary pb-2 mb-2">
                           <div class="media">
-                               <img class="align-self-center" src="https://d.newsweek.com/en/full/1563634/who-praise-china-criticism-coronavirus.jpg?w=135&h=90&f=d67d3572a6718911f7b6fdd1d79bd47a" alt="Verona Juliette's house">
+                               <img class="align-self-center w-50" src="assets/politic.jpg" alt="Verona Juliette's house">
                                <div class="media-body pl-3">
                                    <a class="font-weight-bold" href="#">HO Praises China As Some Question Coronavirus Transparency</a>
                                </div>
@@ -809,7 +822,7 @@
                        </div>
                        <div class="categories-mini">
                            <div class="media">
-                                <img class="align-self-center" src="https://d.newsweek.com/en/full/1563634/who-praise-china-criticism-coronavirus.jpg?w=135&h=90&f=d67d3572a6718911f7b6fdd1d79bd47a" alt="Verona Juliette's house">
+                                <img class="align-self-center w-50" src="assets/politic.jpg" alt="Verona Juliette's house">
                                 <div class="media-body pl-3">
                                     <a class="font-weight-bold" href="#">HO Praises China As Some Question Coronavirus Transparency</a>
                                 </div>
@@ -821,7 +834,7 @@
                    </div>
                    <div class="col-12 my-3 col-md-4 categories-US">
                         <div class="card w-100 h-100 border-0">
-                          <img src="https://d.newsweek.com/en/full/1563642/rhesus-macaques-india.jpg?w=397&h=265&f=e267df3f776f2aab24f9b192aed37d58" class="card-img-top" alt="image">
+                          <img src="assets/nature.jpg" class="card-img-top" alt="image">
                           <div class="card-body p-0 my-3">
                             <h5 class="card-text font-weight-bold">Relive the 'Star Wars' Saga at These Filming Locations</h5>
                           </div>
@@ -829,7 +842,7 @@
                     </div>
                     <div class="col-12 my-3 col-md-4 categories-US">
                         <div class="card w-100 h-100 border-0">
-                            <img src="https://d.newsweek.com/en/full/1563642/rhesus-macaques-india.jpg?w=397&h=265&f=e267df3f776f2aab24f9b192aed37d58" class="card-img-top" alt="image">
+                            <img src="assets/nature.jpg" class="card-img-top" alt="image">
                             <div class="card-body p-0 my-3">
                               <h5 class="card-text font-weight-bold">Relive the 'Star Wars' Saga at These Filming Locations</h5>
                             </div>
@@ -838,7 +851,7 @@
                     <div class="col-12 my-3 col-md-4 categories-US d-flex flex-column">
                         <div class="categories-mini border-bottom border-secondary pb-2 mb-2">
                            <div class="media">
-                               <img class="align-self-center" src="https://d.newsweek.com/en/full/1563634/who-praise-china-criticism-coronavirus.jpg?w=135&h=90&f=d67d3572a6718911f7b6fdd1d79bd47a" alt="Verona Juliette's house">
+                               <img class="align-self-center w-50" src="assets/politic.jpg" alt="Verona Juliette's house">
                                <div class="media-body pl-3">
                                    <a class="font-weight-bold" href="#">HO Praises China As Some Question Coronavirus Transparency</a>
                                </div>
@@ -846,7 +859,7 @@
                         </div>
                         <div class="categories-mini border-bottom border-secondary pb-2 mb-2">
                            <div class="media">
-                                <img class="align-self-center" src="https://d.newsweek.com/en/full/1563634/who-praise-china-criticism-coronavirus.jpg?w=135&h=90&f=d67d3572a6718911f7b6fdd1d79bd47a" alt="Verona Juliette's house">
+                                <img class="align-self-center w-50" src="assets/politic.jpg" alt="Verona Juliette's house">
                                 <div class="media-body pl-3">
                                     <a class="font-weight-bold" href="#">HO Praises China As Some Question Coronavirus Transparency</a>
                                 </div>
@@ -854,7 +867,7 @@
                         </div>
                         <div class="categories-mini">
                             <div class="media">
-                                 <img class="align-self-center" src="https://d.newsweek.com/en/full/1563634/who-praise-china-criticism-coronavirus.jpg?w=135&h=90&f=d67d3572a6718911f7b6fdd1d79bd47a" alt="Verona Juliette's house">
+                                 <img class="align-self-center w-50" src="assets/politic.jpg" alt="Verona Juliette's house">
                                  <div class="media-body pl-3">
                                      <a class="font-weight-bold" href="#">HO Praises China As Some Question Coronavirus Transparency</a>
                                  </div>
@@ -866,7 +879,7 @@
                    </div>
                    <div class="col-12 my-3 col-md-4 categories-US">
                         <div class="card w-100 h-100 border-0">
-                          <img src="https://d.newsweek.com/en/full/1563642/rhesus-macaques-india.jpg?w=397&h=265&f=e267df3f776f2aab24f9b192aed37d58" class="card-img-top" alt="image">
+                          <img src="assets/nature.jpg" class="card-img-top" alt="image">
                           <div class="card-body p-0 my-3">
                             <h5 class="card-text font-weight-bold">Relive the 'Star Wars' Saga at These Filming Locations</h5>
                           </div>
@@ -874,7 +887,7 @@
                     </div>
                     <div class="col-12 my-3 col-md-4 categories-US">
                         <div class="card w-100 h-100 border-0">
-                            <img src="https://d.newsweek.com/en/full/1563642/rhesus-macaques-india.jpg?w=397&h=265&f=e267df3f776f2aab24f9b192aed37d58" class="card-img-top" alt="image">
+                            <img src="assets/nature.jpg" class="card-img-top" alt="image">
                             <div class="card-body p-0 my-3">
                               <h5 class="card-text font-weight-bold">Relive the 'Star Wars' Saga at These Filming Locations</h5>
                             </div>
@@ -883,7 +896,7 @@
                     <div class="col-12 my-3 col-md-4 categories-US d-flex flex-column">
                         <div class="categories-mini border-bottom border-secondary pb-2 mb-2">
                            <div class="media">
-                               <img class="align-self-center" src="https://d.newsweek.com/en/full/1563634/who-praise-china-criticism-coronavirus.jpg?w=135&h=90&f=d67d3572a6718911f7b6fdd1d79bd47a" alt="Verona Juliette's house">
+                               <img class="align-self-center w-50" src="assets/politic.jpg" alt="Verona Juliette's house">
                                <div class="media-body pl-3">
                                    <a class="font-weight-bold" href="#">HO Praises China As Some Question Coronavirus Transparency</a>
                                </div>
@@ -891,7 +904,7 @@
                         </div>
                         <div class="categories-mini border-bottom border-secondary pb-2 mb-2">
                            <div class="media">
-                                <img class="align-self-center" src="https://d.newsweek.com/en/full/1563634/who-praise-china-criticism-coronavirus.jpg?w=135&h=90&f=d67d3572a6718911f7b6fdd1d79bd47a" alt="Verona Juliette's house">
+                                <img class="align-self-center w-50" src="assets/politic.jpg" alt="Verona Juliette's house">
                                 <div class="media-body pl-3">
                                     <a class="font-weight-bold" href="#">HO Praises China As Some Question Coronavirus Transparency</a>
                                 </div>
@@ -899,7 +912,7 @@
                         </div>
                         <div class="categories-mini">
                             <div class="media">
-                                 <img class="align-self-center" src="https://d.newsweek.com/en/full/1563634/who-praise-china-criticism-coronavirus.jpg?w=135&h=90&f=d67d3572a6718911f7b6fdd1d79bd47a" alt="Verona Juliette's house">
+                                 <img class="align-self-center w-50" src="assets/politic.jpg" alt="Verona Juliette's house">
                                  <div class="media-body pl-3">
                                      <a class="font-weight-bold" href="#">HO Praises China As Some Question Coronavirus Transparency</a>
                                  </div>
@@ -911,7 +924,7 @@
                    </div>
                    <div class="col-12 my-3 col-md-4 categories-US">
                         <div class="card w-100 h-100 border-0">
-                          <img src="https://d.newsweek.com/en/full/1563642/rhesus-macaques-india.jpg?w=397&h=265&f=e267df3f776f2aab24f9b192aed37d58" class="card-img-top" alt="image">
+                          <img src="assets/nature.jpg" class="card-img-top" alt="image">
                           <div class="card-body p-0 my-3">
                             <h5 class="card-text font-weight-bold">Relive the 'Star Wars' Saga at These Filming Locations</h5>
                           </div>
@@ -919,7 +932,7 @@
                     </div>
                     <div class="col-12 my-3 col-md-4 categories-US">
                         <div class="card w-100 h-100 border-0">
-                            <img src="https://d.newsweek.com/en/full/1563642/rhesus-macaques-india.jpg?w=397&h=265&f=e267df3f776f2aab24f9b192aed37d58" class="card-img-top" alt="image">
+                            <img src="assets/nature.jpg" class="card-img-top" alt="image">
                             <div class="card-body p-0 my-3">
                               <h5 class="card-text font-weight-bold">Relive the 'Star Wars' Saga at These Filming Locations</h5>
                             </div>
@@ -928,7 +941,7 @@
                     <div class="col-12 my-3 col-md-4 categories-US d-flex flex-column">
                         <div class="categories-mini border-bottom border-secondary pb-2 mb-2">
                            <div class="media">
-                               <img class="align-self-center" src="https://d.newsweek.com/en/full/1563634/who-praise-china-criticism-coronavirus.jpg?w=135&h=90&f=d67d3572a6718911f7b6fdd1d79bd47a" alt="Verona Juliette's house">
+                               <img class="align-self-center w-50" src="assets/politic.jpg" alt="Verona Juliette's house">
                                <div class="media-body pl-3">
                                    <a class="font-weight-bold" href="#">HO Praises China As Some Question Coronavirus Transparency</a>
                                </div>
@@ -936,7 +949,7 @@
                         </div>
                         <div class="categories-mini border-bottom border-secondary pb-2 mb-2">
                            <div class="media">
-                                <img class="align-self-center" src="https://d.newsweek.com/en/full/1563634/who-praise-china-criticism-coronavirus.jpg?w=135&h=90&f=d67d3572a6718911f7b6fdd1d79bd47a" alt="Verona Juliette's house">
+                                <img class="align-self-center w-50" src="assets/politic.jpg" alt="Verona Juliette's house">
                                 <div class="media-body pl-3">
                                     <a class="font-weight-bold" href="#">HO Praises China As Some Question Coronavirus Transparency</a>
                                 </div>
@@ -944,7 +957,7 @@
                         </div>
                         <div class="categories-mini">
                             <div class="media">
-                                 <img class="align-self-center" src="https://d.newsweek.com/en/full/1563634/who-praise-china-criticism-coronavirus.jpg?w=135&h=90&f=d67d3572a6718911f7b6fdd1d79bd47a" alt="Verona Juliette's house">
+                                 <img class="align-self-center w-50" src="assets/politic.jpg" alt="Verona Juliette's house">
                                  <div class="media-body pl-3">
                                      <a class="font-weight-bold" href="#">HO Praises China As Some Question Coronavirus Transparency</a>
                                  </div>
@@ -956,7 +969,7 @@
                    </div>
                    <div class="col-12 my-3 col-md-4 categories-US">
                         <div class="card w-100 h-100 border-0">
-                          <img src="https://d.newsweek.com/en/full/1563642/rhesus-macaques-india.jpg?w=397&h=265&f=e267df3f776f2aab24f9b192aed37d58" class="card-img-top" alt="image">
+                          <img src="assets/nature.jpg" class="card-img-top" alt="image">
                           <div class="card-body p-0 my-3">
                             <h5 class="card-text font-weight-bold">Relive the 'Star Wars' Saga at These Filming Locations</h5>
                           </div>
@@ -964,7 +977,7 @@
                     </div>
                     <div class="col-12 my-3 col-md-4 categories-US">
                         <div class="card w-100 h-100 border-0">
-                            <img src="https://d.newsweek.com/en/full/1563642/rhesus-macaques-india.jpg?w=397&h=265&f=e267df3f776f2aab24f9b192aed37d58" class="card-img-top" alt="image">
+                            <img src="assets/nature.jpg" class="card-img-top" alt="image">
                             <div class="card-body p-0 my-3">
                               <h5 class="card-text font-weight-bold">Relive the 'Star Wars' Saga at These Filming Locations</h5>
                             </div>
@@ -973,7 +986,7 @@
                     <div class="col-12 my-3 col-md-4 categories-US d-flex flex-column">
                         <div class="categories-mini border-bottom border-secondary pb-2 mb-2">
                            <div class="media">
-                               <img class="align-self-center" src="https://d.newsweek.com/en/full/1563634/who-praise-china-criticism-coronavirus.jpg?w=135&h=90&f=d67d3572a6718911f7b6fdd1d79bd47a" alt="Verona Juliette's house">
+                               <img class="align-self-center w-50" src="assets/politic.jpg" alt="Verona Juliette's house">
                                <div class="media-body pl-3">
                                    <a class="font-weight-bold" href="#">HO Praises China As Some Question Coronavirus Transparency</a>
                                </div>
@@ -981,7 +994,7 @@
                         </div>
                         <div class="categories-mini border-bottom border-secondary pb-2 mb-2">
                            <div class="media">
-                                <img class="align-self-center" src="https://d.newsweek.com/en/full/1563634/who-praise-china-criticism-coronavirus.jpg?w=135&h=90&f=d67d3572a6718911f7b6fdd1d79bd47a" alt="Verona Juliette's house">
+                                <img class="align-self-center w-50" src="assets/politic.jpg" alt="Verona Juliette's house">
                                 <div class="media-body pl-3">
                                     <a class="font-weight-bold" href="#">HO Praises China As Some Question Coronavirus Transparency</a>
                                 </div>
@@ -989,7 +1002,7 @@
                         </div>
                         <div class="categories-mini">
                             <div class="media">
-                                 <img class="align-self-center" src="https://d.newsweek.com/en/full/1563634/who-praise-china-criticism-coronavirus.jpg?w=135&h=90&f=d67d3572a6718911f7b6fdd1d79bd47a" alt="Verona Juliette's house">
+                                 <img class="align-self-center w-50" src="assets/politic.jpg" alt="Verona Juliette's house">
                                  <div class="media-body pl-3">
                                      <a class="font-weight-bold" href="#">HO Praises China As Some Question Coronavirus Transparency</a>
                                  </div>
@@ -1001,7 +1014,7 @@
                    </div>
                    <div class="col-12 my-3 col-md-4 categories-US">
                         <div class="card w-100 h-100 border-0">
-                          <img src="https://d.newsweek.com/en/full/1563642/rhesus-macaques-india.jpg?w=397&h=265&f=e267df3f776f2aab24f9b192aed37d58" class="card-img-top" alt="image">
+                          <img src="assets/nature.jpg" class="card-img-top" alt="image">
                           <div class="card-body p-0 my-3">
                             <h5 class="card-text font-weight-bold">Relive the 'Star Wars' Saga at These Filming Locations</h5>
                           </div>
@@ -1009,7 +1022,7 @@
                     </div>
                     <div class="col-12 my-3 col-md-4 categories-US">
                         <div class="card w-100 h-100 border-0">
-                            <img src="https://d.newsweek.com/en/full/1563642/rhesus-macaques-india.jpg?w=397&h=265&f=e267df3f776f2aab24f9b192aed37d58" class="card-img-top" alt="image">
+                            <img src="assets/nature.jpg" class="card-img-top" alt="image">
                             <div class="card-body p-0 my-3">
                               <h5 class="card-text font-weight-bold">Relive the 'Star Wars' Saga at These Filming Locations</h5>
                             </div>
@@ -1018,7 +1031,7 @@
                     <div class="col-12 my-3 col-md-4 categories-US d-flex flex-column">
                         <div class="categories-mini border-bottom border-secondary pb-2 mb-2">
                            <div class="media">
-                               <img class="align-self-center" src="https://d.newsweek.com/en/full/1563634/who-praise-china-criticism-coronavirus.jpg?w=135&h=90&f=d67d3572a6718911f7b6fdd1d79bd47a" alt="Verona Juliette's house">
+                               <img class="align-self-center w-50" src="assets/politic.jpg" alt="Verona Juliette's house">
                                <div class="media-body pl-3">
                                    <a class="font-weight-bold" href="#">HO Praises China As Some Question Coronavirus Transparency</a>
                                </div>
@@ -1026,7 +1039,7 @@
                         </div>
                         <div class="categories-mini border-bottom border-secondary pb-2 mb-2">
                            <div class="media">
-                                <img class="align-self-center" src="https://d.newsweek.com/en/full/1563634/who-praise-china-criticism-coronavirus.jpg?w=135&h=90&f=d67d3572a6718911f7b6fdd1d79bd47a" alt="Verona Juliette's house">
+                                <img class="align-self-center w-50" src="assets/politic.jpg" alt="Verona Juliette's house">
                                 <div class="media-body pl-3">
                                     <a class="font-weight-bold" href="#">HO Praises China As Some Question Coronavirus Transparency</a>
                                 </div>
@@ -1034,7 +1047,7 @@
                         </div>
                         <div class="categories-mini">
                             <div class="media">
-                                 <img class="align-self-center" src="https://d.newsweek.com/en/full/1563634/who-praise-china-criticism-coronavirus.jpg?w=135&h=90&f=d67d3572a6718911f7b6fdd1d79bd47a" alt="Verona Juliette's house">
+                                 <img class="align-self-center w-50" src="assets/politic.jpg" alt="Verona Juliette's house">
                                  <div class="media-body pl-3">
                                      <a class="font-weight-bold" href="#">HO Praises China As Some Question Coronavirus Transparency</a>
                                  </div>
@@ -1043,43 +1056,54 @@
                     </div>
              </section>
              <section class="subscribeBottom row m-0">
-                 <div class="subscribe-child d-none d-lg-flex col-lg-8 d-flex flex-column">
+                 <div class="subscribe-child col-lg-7">
                     <h5>SUBSCRIBE</h5> 
                     <div class="in-depth-content flex-grow-1">
-    
+                        <div class="row py-4 py-md-0">
+                           <div class="col-md-6 col-lg-7 row bg-light heightSpecial">
+                               <div class="w-25 h-50 bg-primary m-auto positionSpecial1">
+
+                               </div>
+                               <div class="w-25 h-50 bg-danger m-auto positionSpecial2">
+                                   
+                                </div>
+                           </div>
+                           <div class="col-md-6 col-lg-5 content-section-end">
+                             <div class="content-end text-center text-md-left">
+                                  <h4>In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</h4>
+                                  <p>All Access + Weekly Delivery.
+                                      <br>
+                                      Choose A Membership That's Perfect for You!
+                                       <br>
+                                       <br>
+                                       <a href="#" class="subscribe-button-1">
+                                            Subscribe
+                                      </a> 
+                                  </p> 
+                             </div>  
+                           </div>
+                        </div>
                     </div>
                  </div>
-                 <div class="newsletter d-none d-lg-flex col-lg-4 d-flex flex-column">
+                 <div class="newsletter col-lg-5">
                     <h5>NEWSLETTER</h5>
-                    <div class="row">
-                        <div>
-                            <div class="">
-                                <div class="picture-end">
-                                </div>
-                                <div class="content-end">
-                                   <h4>The Starting 5</h4>
-                                   <p>Take back your inbox.
-                                        Sign up for our newsletter and start making sense of the world around you.
-                                   </p>
-                                   <svg version="1.1" class="align-middle arrow-right" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 8 14" style="enable-background:new 0 0 8 14;" xml:space="preserve">
-                                    <g id="arrow-right">
-                                      <defs>
-                                      <rect id="SVGID_1_" width="8" height="14"></rect>
-                                      </defs>
-                                      <clipPath id="SVGID_2_">
-                                      <use xlink:href="#SVGID_1_" style="overflow:visible;"></use>
-                                      </clipPath>
-                                      <g id="Shape_1" class="st0">
-                                      <g>
-                                      <polygon class="st1" points="8,7 1.1,0 0,1.1 5.9,7 0,12.9 1.1,14 8,7 8,7	"></polygon>
-                                      </g>
-                                      </g>
-                                    </g>
-                                   </svg>
-                                </div>
-                                
-                            </div>
-                        </div>
+                    <div class="row border border-light py-4 py-md-0">
+                       <div class="col-md-3 col-lg-7 picture-end">
+                       </div>
+                       <img class="d-md-none w-50 mx-auto" src="assets/coronavirus.jpg" alt="image">
+                       <div class="col-md-9 col-lg-5 content-section-end">
+                         <div class="content-end text-center text-md-left">
+                              <h4>The Starting 5</h4>
+                              <p>Take back your inbox.
+                                   Sign up for our newsletter and start making sense of the world around you.
+                                   <br>
+                                   <br>
+                                   <a href="#" class="subscribe-button-1">
+                                        Subscribe
+                                  </a> 
+                              </p> 
+                         </div>  
+                       </div>
                     </div>
                  </div>   
              </section> 
@@ -1127,28 +1151,28 @@
                         <strong>Editions:</strong>
                     </label>
                     <ul class="list-inline">
-                        <li class="list-inline-item"><a href="https://www.newsweek.com/">U.S. Edition</a></li>
-                        <li class="list-inline-item"><a href="https://www.newsweekjapan.jp/">日本</a></li>
-                        <li class="list-inline-item"><a href="http://newsweekpakistan.com/">Pakistan</a></li>
-                        <li class="list-inline-item"><a href="https://www.newsweek.pl/">Polska</a></li>
-                        <li class="list-inline-item"><a href="https://newsweek.ro/">România</a></li>
+                        <li class="list-inline-item"><a href="#">U.S. Edition</a></li>
+                        <li class="list-inline-item"><a href="#">日本</a></li>
+                        <li class="list-inline-item"><a href="#">Pakistan</a></li>
+                        <li class="list-inline-item"><a href="#">Polska</a></li>
+                        <li class="list-inline-item"><a href="#">România</a></li>
                     </ul>
                 </div>
             </div>
             <div class="col-12">
                 <ul class="list-inline">
-                    <li class="list-inline-item"><a href="/about-newsweek">About Us</a></li>
-                    <li class="list-inline-item"><a href="/corrections">Corrections</a></li>
-                    <li class="list-inline-item"><a href="/contact">Contact Us</a></li>
-                    <li class="list-inline-item"><a href="/editorial-guidelines">Editorial Guidelines</a></li>
-                    <li class="list-inline-item"><a href="/advertise">Advertise</a></li>
-                    <li class="list-inline-item"><a href="/copyright">Copyright</a></li>
-                    <li class="list-inline-item"><a href="/terms-service">Terms &amp; Conditions</a></li>
-                    <li class="list-inline-item"><a href="/privacy-policy">Privacy Policy</a></li>
-                    <li class="list-inline-item"><a href="/cookie-policy">Cookie Policy</a></li>
-                    <li class="list-inline-item"><a href="/terms-sale">Terms of Sale</a></li>
-                    <li class="list-inline-item"><a href="/archive">Archive</a></li>
-                    <li class="list-inline-item"><a href="/announcements">Announcements</a></li>
+                    <li class="list-inline-item"><a href="#">About Us</a></li>
+                    <li class="list-inline-item"><a href="#">Corrections</a></li>
+                    <li class="list-inline-item"><a href="#">Contact Us</a></li>
+                    <li class="list-inline-item"><a href="#">Editorial Guidelines</a></li>
+                    <li class="list-inline-item"><a href="#">Advertise</a></li>
+                    <li class="list-inline-item"><a href="#">Copyright</a></li>
+                    <li class="list-inline-item"><a href="#">Terms &amp; Conditions</a></li>
+                    <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+                    <li class="list-inline-item"><a href="#">Cookie Policy</a></li>
+                    <li class="list-inline-item"><a href="#">Terms of Sale</a></li>
+                    <li class="list-inline-item"><a href="#">Archive</a></li>
+                    <li class="list-inline-item"><a href="#">Announcements</a></li>
                     <li class="list-inline-item"><a href="#">Consent preferences</a></li>
                 </ul>
             </div>

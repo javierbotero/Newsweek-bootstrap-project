@@ -28,7 +28,7 @@ nav header {
   text-transform: uppercase;
 }
 
-#subscribe-button {
+.subscribe-button {
   background-color: white;
   font: bold 18px/14px 'Roboto Condensed', sans-serif;
   color: #f72210;
@@ -37,7 +37,7 @@ nav header {
 }
 
 @media screen and (max-width: 500px) {
-  #subscribe-button,
+  .subscribe-button,
   .sign-in {
     font-size: 14px;
   }
@@ -103,17 +103,6 @@ nav header {
   }
 } 
 
-.element-invisible {
-  background: url('https://g.newsweek.com/www/images/icon-search-glass.svg') center/contain no-repeat white;
-  font-size: 0;
-  width: 19px;
-  height: 20px;
-  position: absolute;
-  top: 29%;
-  z-index: 1;
-  left: 43%;
-}
-
 #edit-search-block-form--4 {
   position: absolute; 
   top: 14%;
@@ -152,7 +141,10 @@ nav header {
 }
 
 .icon {
-  background: url("https://g.newsweek.com/www/images/logo-n1.svg") center/contain no-repeat #f72210;
+  background-color: #f72210;
+  text-align: center;
+  color: white;
+  font: bold 16px/16px "Roboto Condensed",sans-serif;
   width: 29px;
   height: 28px;
   display: block;
@@ -235,7 +227,7 @@ nav header {
 }
 
 .video-pic-big {
-  background: url('https://d.newsweek.com/en/full/1555347/newsweek-conversations-paul-wesley.jpg?w=486&h=315&f=78f0771c8fbfb19e3f231a48832b7a20') no-repeat center;
+  background: url('/assets/actor.jpg') no-repeat center;
   background-size: cover;
 }
 
@@ -244,7 +236,7 @@ nav header {
 }
 
 .video-pic-small {
-  background: url("https://d.newsweek.com/en/full/1555350/newsweek-conversations-leslie-grossman.jpg?w=173&h=104&f=b810dcbe860058739bb5ae4114710a95") no-repeat center;
+  background: url("/assets/actress.jpg") no-repeat center;
   background-size: cover;
   height: 100%;
 }
@@ -271,7 +263,7 @@ a {
 }
 
 .icon-slide {
-  background: url("https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png") no-repeat center;
+  /* background: url("") no-repeat center; */
   position: relative;
   bottom: 36px;
   color: red;
@@ -280,7 +272,7 @@ a {
 }
 
 .card-subscribe {
-  background: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5") no-repeat cover/center;
+  /* background: url("") no-repeat cover/center; */
 }
 
 .arrow-right-1 {
@@ -296,6 +288,41 @@ a {
   padding: 6px 11px;
  
 }
+
+.responsiveStories {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .responsiveStories {
+    width: 30%;
+  }
+}
+
+.picture-end {
+  background: url("/assets/coronavirus.jpg") no-repeat;
+}
+
+.positionSpecial1 {
+  position: relative;
+  left: 22%;
+  top: -6%;
+}
+
+.positionSpecial2 {
+  position: relative;
+  left: -19%;
+} 
+
+@media screen and (max-width: 768px) {
+  .heightSpecial {
+    height: 334px;
+  }
+}
+
+
+
+
 /* End same sules for various elements */
 
 .categories-mini {

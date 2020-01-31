@@ -225,7 +225,9 @@ nav header {
 }
 
 .video-pic-big {
-  background: url('/assets/actor.jpg') no-repeat center;
+  background-image: url("/assets/actor.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
 }
 
@@ -234,9 +236,11 @@ nav header {
 }
 
 .video-pic-small {
-  background: url("/assets/actress.jpg") no-repeat center;
-  background-size: cover;
   height: 100%;
+  background-image: url("/assets/actress.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 /* Same sules for various elements */
@@ -261,7 +265,6 @@ a {
 }
 
 .icon-slide {
-  /* background: url("") no-repeat center; */
   position: relative;
   bottom: 36px;
   color: red;

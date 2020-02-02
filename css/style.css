@@ -10,14 +10,6 @@ nav {
   background-color: #f72210;
 }
 
-nav header {
-  text-align: center;
-}
-
-.subscribe {
-  text-align: right;
-}
-
 .arrow-right {
   width: 10px;
   fill: #f72210;
@@ -25,14 +17,12 @@ nav header {
 
 .sign-in {
   font: bold 18px/14px "Roboto Condensed", sans-serif;
-  text-transform: uppercase;
 }
 
 .subscribe-button {
   background-color: white;
   font: bold 18px/14px 'Roboto Condensed', sans-serif;
   color: #f72210;
-  text-transform: uppercase;
   padding: 6px 11px;
 }
 
@@ -112,7 +102,6 @@ nav header {
 
 .tag-news {
   font: bold 16px/16px "Roboto Condensed", sans-serif;
-  text-transform: uppercase;
   padding-bottom: 11px;
   color: rgba(3, 3, 3, 0.4);
 }
@@ -313,6 +302,10 @@ a {
 @media screen and (max-width: 768px) {
   .heightSpecial {
     height: 334px;
+  }
+
+  .contSpecial2 {
+    height: 520px ;
   }
 }
 

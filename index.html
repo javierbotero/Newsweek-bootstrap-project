@@ -1,0 +1,1190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NewsWeek-cloneProject</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container-fluid wrapper">
+        <nav class="row py-3 p-lg-0 pt-lg-2 border-bottom border-400">
+            <div class="date col-lg-4 pt-5 text-white d-none d-lg-block">
+                <span>Thu, Jan 23, 2020</span>
+            </div>
+            <header class="col-6 col-lg-4 my-auto text-center">
+                <svg version="1.1" id="Layer_2" class="logo-shape w-md-100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 395.6 60" style="enable-background:new 0 0 395.6 60;" xml:space="preserve"><g>
+                    <path class="st0" d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2	L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11	c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7	l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6	H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13	c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8	c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2	C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7	h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4	c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1	c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6	c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6	C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5	h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9	c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2	c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9	C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6	c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1	c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6	v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3	c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5	h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7"></path>
+                    </g>
+                </svg>
+            </header>
+            <div class="col-6 col-lg-4 text-right pt-lg-5 righ-data">
+                <a href="#" class="mr-3 text-white text-uppercase sign-in">Sign in</a>
+                <a href="#" class="subscribe-button text-uppercase mr-2">
+                    Subscribe
+                    <svg version="1.1" class="align-middle arrow-right" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 8 14" style="enable-background:new 0 0 8 14;" xml:space="preserve">
+                        <g id="arrow-right">
+                          <defs>
+                          <rect id="SVGID_1_" width="8" height="14"></rect>
+                          </defs>
+                          <clipPath id="SVGID_2_">
+                          <use xlink:href="#SVGID_1_" style="overflow:visible;"></use>
+                          </clipPath>
+                          <g id="Shape_1" class="st0">
+                          <g>
+                          <polygon class="st1" points="8,7 1.1,0 0,1.1 5.9,7 0,12.9 1.1,14 8,7 8,7	"></polygon>
+                          </g>
+                          </g>
+                        </g>
+                       </svg>   
+                </a>
+                <img class="d-lg-none align-middle" width="30" src="assets/hamburguerIcon.png" alt="icon">
+                <div class="red-shape d-none d-lg-block"></div>
+                <div class="red-shape-square d-none d-lg-block"></div>
+            </div>
+            <ul class="menu col-10 d-none d-lg-flex pl-0 list-unstyled justify-content-around bg-white py-3 mt-3 mb-0">
+                <li class="border-left-0">
+                    <span>US</span>
+                </li>
+                <li>
+                    World
+                </li>
+                <li>
+                    Business
+                </li>
+                <li>
+                    Tech & Science
+                </li>
+                <li>
+                    Culture
+                </li>
+                <li>
+                    Newsgeek
+                </li>
+                <li>
+                    Sports
+                </li>
+                <li>
+                    Health
+                </li>
+                <li>
+                    Newsgeek
+                </li>
+                <li>
+                    Sports
+                </li>
+                <li>
+                    Health
+                </li>   
+            </ul>
+            <div class="search-bar col mt-3 d-none d-lg-block bg-white">
+                <input title="Enter the terms you wish to search for." placeholder="Search" type="text" id="edit-search-block-form--4" name="search_block_form" value="" size="15" maxlength="128" class="form-text">
+            </div>
+        </nav>
+        <main class="px-lg-4 py-3">
+            <section class="row m-0 three-col">
+                 <header class="hide-headers">
+                 </header>
+                 <div class="col-12 order-2 col-md-5 order-md-1 col-lg-3 order-lg-1 left">
+                     <div>
+                        <h4 class="tag-news text-uppercase">Featured Stories</h4>
+                        <article  class="card-article card pb-3 border-0">
+                            <a href="#">
+                               <img class="card-img-top" src="assets/coronavirus.jpg" alt="image news">
+                               <span class="tag">Health</span> 
+                            </a>
+                            <div class="card-body py-2 px-0">
+                               <h3 class="title-card card-title">Face Masks Sell Out Over Coronavirus Fears, but Experts Say They Don't Help</h3>
+                               <p class="excerpt card-text">A total of five cases of the new coronavirus have been confirmed in the U.S. since the outbreak started in China in late 2019.</p>
+                            </div>
+                        </article>
+                        <article  class="card-article card pb-3 border-0">
+                             <a href="#">
+                                <img class="card-img-top" src="assets/coronavirus.jpg" alt="image news">
+                                <span class="tag">Health</span> 
+                             </a>
+                             <div class="card-body py-2 px-0">
+                                <h3 class="title-card card-title">Face Masks Sell Out Over Coronavirus Fears, but Experts Say They Don't Help</h3>
+                                <p class="excerpt card-text">A total of five cases of the new coronavirus have been confirmed in the U.S. since the outbreak started in China in late 2019.</p>
+                             </div>
+                         </article>
+                         <article  class="card-article card pb-3 border-0">
+                             <a href="#">
+                                <img class="card-img-top" src="assets/coronavirus.jpg" alt="image news">
+                                <span class="tag">Health</span> 
+                             </a>
+                             <div class="card-body py-2 px-0">
+                                <h3 class="title-card card-title">Face Masks Sell Out Over Coronavirus Fears, but Experts Say They Don't Help</h3>
+                                <p class="excerpt card-text">A total of five cases of the new coronavirus have been confirmed in the U.S. since the outbreak started in China in late 2019.</p>
+                             </div>
+                         </article>
+                         <article  class="card-article card pb-3 border-0">
+                              <a href="#">
+                                 <img class="card-img-top" src="assets/coronavirus.jpg" alt="image news">
+                                 <span class="tag">Health</span> 
+                              </a>
+                              <div class="card-body py-2 px-0">
+                                 <h3 class="title-card card-title">Face Masks Sell Out Over Coronavirus Fears, but Experts Say They Don't Help</h3>
+                                 <p class="excerpt card-text">A total of five cases of the new coronavirus have been confirmed in the U.S. since the outbreak started in China in late 2019.</p>
+                              </div>
+                          </article>
+                     </div>
+                     <div class="sticky-left">
+                        <div class="card">
+                          <img class="card-img-top" src="assets/nurse.jpg" alt="Card image cap">
+                          <span class="sponsored">Sponsored Insight</span> 
+                          <div class="card-body">
+                            <h5 class="card-title font-weight-bold text-dark">Nurses - The Real Medical Heroes of 2020</h5>
+                            <p class="card-text">We’re used to doctors bustling in and out when in hospital, but it’s the reassuring presence and professionalism of the nursing staff that we rely on. What sets the best ones apart?</p>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <img class="card-img-top" src="assets/nurse.jpg" alt="Card image cap">
+                          <span class="sponsored">Sponsored Insight</span> 
+                          <div class="card-body">
+                            <h5 class="card-title font-weight-bold text-dark">Nurses - The Real Medical Heroes of 2020</h5>
+                            <p class="card-text">We’re used to doctors bustling in and out when in hospital, but it’s the reassuring presence and professionalism of the nursing staff that we rely on. What sets the best ones apart?</p>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <img class="card-img-top" src="assets/nurse.jpg" alt="Card image cap">
+                          <span class="sponsored">Sponsored Insight</span> 
+                          <div class="card-body">
+                            <h5 class="card-title font-weight-bold text-dark">Nurses - The Real Medical Heroes of 2020</h5>
+                            <p class="card-text">We’re used to doctors bustling in and out when in hospital, but it’s the reassuring presence and professionalism of the nursing staff that we rely on. What sets the best ones apart?</p>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <img class="card-img-top" src="assets/nurse.jpg" alt="Card image cap">
+                          <span class="sponsored">Sponsored Insight</span> 
+                          <div class="card-body">
+                            <h5 class="card-title font-weight-bold text-dark">Nurses - The Real Medical Heroes of 2020</h5>
+                            <p class="card-text">We’re used to doctors bustling in and out when in hospital, but it’s the reassuring presence and professionalism of the nursing staff that we rely on. What sets the best ones apart?</p>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <img class="card-img-top" src="assets/nurse.jpg" alt="Card image cap">
+                          <span class="sponsored">Sponsored Insight</span> 
+                          <div class="card-body">
+                            <h5 class="card-title font-weight-bold text-dark">Nurses - The Real Medical Heroes of 2020</h5>
+                            <p class="card-text">We’re used to doctors bustling in and out when in hospital, but it’s the reassuring presence and professionalism of the nursing staff that we rely on. What sets the best ones apart?</p>
+                          </div>
+                        </div>
+                     </div>
+                 </div>
+                 <div class="col-12 order-1 col-md-7 order-md-2 col-lg-6 order-lg-2 d-flex flex-column center">
+                     <div class="order-1 order-sm-1 order-md-1">
+                         <h4 class="tag-news text-uppercase">Top Story</h4>
+                         <article  class="card-article card pb-3 border-0">
+                             <a href="#">
+                                <img class="card-img-top" src="assets/coronavirus2.jpg" alt="image news">
+                                <span class="tag">U.S.</span>
+                            </a>
+                             <div class="card-body py-2 px-0">
+                                <h3 class="title-card card-title">Center news Masks Sell Out Over Coronavirus Fears, but Experts Say They Don't Help</h3>
+                                <p class="excerpt card-text">Center news five cases of the new coronavirus have been confirmed in the U.S. since the outbreak started in China in late 2019.</p>
+                             </div>
+                         </article>  
+                     </div>
+                     <div class="more-stories order-2 order-md-3">
+                        <h4 class="tag-news text-uppercase">More Stories</h4>
+                         <article class="mrst-card py-3 border-top">
+                             <img class="float-left mr-3 mb-3 responsiveStories" src="assets/palestinians.jpeg" alt="image-news">
+                             <h4><a href="#">Palestinian Leader Brands Trump 'a Dog' as Region Braces for U.S. Deal</a></h4>
+                             <p>President Donald Trump is expected to unveil his peace plan alongside Israeli Prime Minister Benjamin Netanyahu in Washington, D.C.</p>
+                         </article>
+                         <article class="mrst-card py-3 border-top">
+                             <img class="float-left mr-3 mb-3 responsiveStories" src="assets/palestinians.jpeg" alt="image-news">
+                             <h4><a href="#">Palestinian Leader Brands Trump 'a Dog' as Region Braces for U.S. Deal</a></h4>
+                             <p>President Donald Trump is expected to unveil his peace plan alongside Israeli Prime Minister Benjamin Netanyahu in Washington, D.C.</p>
+                         </article>
+                         <article class="mrst-card py-3 border-top">
+                             <img class="float-left mr-3 mb-3 responsiveStories" src="assets/palestinians.jpeg" alt="image-news">
+                             <h4><a href="#">Palestinian Leader Brands Trump 'a Dog' as Region Braces for U.S. Deal</a></h4>
+                             <p>President Donald Trump is expected to unveil his peace plan alongside Israeli Prime Minister Benjamin Netanyahu in Washington, D.C.</p>
+                         </article>
+                         <article class="mrst-card py-3 border-top">
+                             <img class="float-left mr-3 mb-3 responsiveStories" src="assets/palestinians.jpeg" alt="image-news">
+                             <h4><a href="#">Palestinian Leader Brands Trump 'a Dog' as Region Braces for U.S. Deal</a></h4>
+                             <p>President Donald Trump is expected to unveil his peace plan alongside Israeli Prime Minister Benjamin Netanyahu in Washington, D.C.</p>
+                         </article>
+                         <article class="mrst-card py-3 border-top">
+                             <img class="float-left mr-3 mb-3 responsiveStories" src="assets/palestinians.jpeg" alt="image-news">
+                             <h4><a href="#">Palestinian Leader Brands Trump 'a Dog' as Region Braces for U.S. Deal</a></h4>
+                             <p>President Donald Trump is expected to unveil his peace plan alongside Israeli Prime Minister Benjamin Netanyahu in Washington, D.C.</p>
+                         </article>
+                         <article class="mrst-card py-3 border-top">
+                             <img class="float-left mr-3 mb-3 responsiveStories" src="assets/palestinians.jpeg" alt="image-news">
+                             <h4><a href="#">Palestinian Leader Brands Trump 'a Dog' as Region Braces for U.S. Deal</a></h4>
+                             <p>President Donald Trump is expected to unveil his peace plan alongside Israeli Prime Minister Benjamin Netanyahu in Washington, D.C.</p>
+                         </article>
+                         <article class="mrst-card py-3 border-top">
+                             <img class="float-left mr-3 mb-3 responsiveStories" src="assets/palestinians.jpeg" alt="image-news">
+                             <h4><a href="#">Palestinian Leader Brands Trump 'a Dog' as Region Braces for U.S. Deal</a></h4>
+                             <p>President Donald Trump is expected to unveil his peace plan alongside Israeli Prime Minister Benjamin Netanyahu in Washington, D.C.</p>
+                         </article>
+                         <article class="mrst-card py-3 border-top">
+                             <img class="float-left mr-3 mb-3 responsiveStories" src="assets/palestinians.jpeg" alt="image-news">
+                             <h4><a href="#">Palestinian Leader Brands Trump 'a Dog' as Region Braces for U.S. Deal</a></h4>
+                             <p>President Donald Trump is expected to unveil his peace plan alongside Israeli Prime Minister Benjamin Netanyahu in Washington, D.C.</p>
+                         </article>
+                         <article class="mrst-card py-3 border-top">
+                             <img class="float-left mr-3 mb-3 responsiveStories" src="assets/palestinians.jpeg" alt="image-news">
+                             <h4><a href="#">Palestinian Leader Brands Trump 'a Dog' as Region Braces for U.S. Deal</a></h4>
+                             <p>President Donald Trump is expected to unveil his peace plan alongside Israeli Prime Minister Benjamin Netanyahu in Washington, D.C.</p>
+                         </article>
+                         <article class="mrst-card py-3 border-top">
+                             <img class="float-left mr-3 mb-3 responsiveStories" src="assets/palestinians.jpeg" alt="image-news">
+                             <h4><a href="#">Palestinian Leader Brands Trump 'a Dog' as Region Braces for U.S. Deal</a></h4>
+                             <p>President Donald Trump is expected to unveil his peace plan alongside Israeli Prime Minister Benjamin Netanyahu in Washington, D.C.</p>
+                         </article>
+                         <article class="mrst-card py-3 border-top">
+                             <img class="float-left mr-3 mb-3 responsiveStories" src="assets/palestinians.jpeg" alt="image-news">
+                             <h4><a href="#">Palestinian Leader Brands Trump 'a Dog' as Region Braces for U.S. Deal</a></h4>
+                             <p>President Donald Trump is expected to unveil his peace plan alongside Israeli Prime Minister Benjamin Netanyahu in Washington, D.C.</p>
+                         </article>
+                     </div>
+                     <div class="culture-travel order-3 order-md-2 order-lg-2 row">
+                        <h4 class="tag-news col-12">Culture and Travel</h4>
+                        <div class="card col-6 border-0">
+                          <img src="assets/bear.jpg" class="card-img-top" alt="...">
+                          <div class="card-body p-2">
+                            <h5 class="card-title">In Search of the Elusive Spirit Bear in the 'Amazon of the North'</h5>
+                            <p class="card-text">Canada's Great Bear Rainforest is the largest, most intact coastal temperate rainforest left on Earth and also home to the rare white Kermode Bear, of which there are less than 400 left.</p>
+                            <a href="#" class="btn-travel">Canada</a>
+                          </div>
+                        </div>
+                        <div class="card col-6 border-0">
+                          <img src="assets/bear.jpg" class="card-img-top" alt="...">
+                          <div class="card-body p-2">
+                            <h5 class="card-title">In Search of the Elusive Spirit Bear in the 'Amazon of the North'</h5>
+                            <p class="card-text">Canada's Great Bear Rainforest is the largest, most intact coastal temperate rainforest left on Earth and also home to the rare white Kermode Bear, of which there are less than 400 left.</p>
+                            <a href="#" class="btn-travel">Canada</a>
+                          </div>
+                        </div>
+                        <div class="card col-6 border-0">
+                          <img src="assets/bear.jpg" class="card-img-top" alt="...">
+                          <div class="card-body p-2">
+                            <h5 class="card-title">In Search of the Elusive Spirit Bear in the 'Amazon of the North'</h5>
+                            <p class="card-text">Canada's Great Bear Rainforest is the largest, most intact coastal temperate rainforest left on Earth and also home to the rare white Kermode Bear, of which there are less than 400 left.</p>
+                            <a href="#" class="btn-travel">Canada</a>
+                          </div>
+                        </div>
+                        <div class="card col-6 border-0">
+                          <img src="assets/bear.jpg" class="card-img-top" alt="...">
+                          <div class="card-body p-2">
+                            <h5 class="card-title">In Search of the Elusive Spirit Bear in the 'Amazon of the North'</h5>
+                            <p class="card-text">Canada's Great Bear Rainforest is the largest, most intact coastal temperate rainforest left on Earth and also home to the rare white Kermode Bear, of which there are less than 400 left.</p>
+                            <a href="#" class="btn-travel">Canada</a>
+                          </div>
+                        </div>
+                     </div>   
+                 </div>
+                 <div class="col-12 order-3 col-md-12 order-md-3 col-lg-3 order-lg-3 right">
+                     <div class="opinion">
+                        <h4 class="tag-news text-uppercase">Opinion</h4>
+                         <article class="mrst-card py-3 border-top media">
+                             <img class="float-left picture-opinion pr-3" src="assets/palestinians2.jpg" alt="image-news">
+                             <div class="media-body">
+                                <h6><a href="#">Palestinian Leader Brands Trump 'a Dog' as Region Braces for U.S. Deal</a></h6>
+                                <h3 class="by">By Rovert Reich</h3>
+                             </div>
+                         </article>
+                         <article class="mrst-card py-3 border-top media">
+                             <img class="float-left picture-opinion pr-3" src="assets/palestinians2.jpg" alt="image-news">
+                             <div class="media-body">
+                                <h6><a href="#">Palestinian Leader Brands Trump 'a Dog' as Region Braces for U.S. Deal</a></h6>
+                                <h3 class="by">By Rovert Reich</h3>
+                             </div>
+                         </article>
+                         <article class="mrst-card py-3 border-top media">
+                             <img class="float-left picture-opinion pr-3" src="assets/palestinians2.jpg" alt="image-news">
+                             <div class="media-body">
+                                <h6><a href="#">Palestinian Leader Brands Trump 'a Dog' as Region Braces for U.S. Deal</a></h6>
+                                <h3 class="by">By Rovert Reich</h3>
+                             </div>
+                         </article>
+                         <article class="mrst-card py-3 border-top media">
+                             <img class="float-left picture-opinion pr-3" src="assets/palestinians2.jpg" alt="image-news">
+                             <div class="media-body">
+                                <h6><a href="#">Palestinian Leader Brands Trump 'a Dog' as Region Braces for U.S. Deal</a></h6>
+                                <h3 class="by">By Rovert Reich</h3>
+                             </div>
+                         </article>
+                         <article class="mrst-card py-3 border-top media">
+                             <img class="float-left picture-opinion pr-3" src="assets/palestinians2.jpg" alt="image-news">
+                             <div class="media-body">
+                                <h6><a href="#">Palestinian Leader Brands Trump 'a Dog' as Region Braces for U.S. Deal</a></h6>
+                                <h3 class="by">By Rovert Reich</h3>
+                             </div>
+                         </article>
+                         <article class="mrst-card py-3 border-top media">
+                             <img class="float-left picture-opinion pr-3" src="assets/palestinians2.jpg" alt="image-news">
+                             <div class="media-body">
+                                <h6><a href="#">Palestinian Leader Brands Trump 'a Dog' as Region Braces for U.S. Deal</a></h6>
+                                <h3 class="by">By Rovert Reich</h3>
+                             </div>
+                         </article>
+                     </div>
+                     <div class="py-4">
+                        <h4 class="tag-news text-uppercase">Latest News</h4>
+                        <ul class="list-unstyled">
+                            <li class="media border-bottom border-secondary py-3">
+                                <img class="w-25 align-self-center" src="assets/verona.jpg" alt="Verona Juliette's house">
+                                <div class="media-body pl-3">
+                                    <a class="font-weight-bold" href="#">Airbnb Offering Stay in Juliet's House in Verona on Valentine's Day</a>
+                                </div>
+                            </li>
+                            <li class="media border-bottom border-secondary py-3">
+                                <img class="w-25 align-self-center" src="assets/verona.jpg" alt="Verona Juliette's house">
+                                <div class="media-body pl-3">
+                                    <a class="font-weight-bold" href="#">Airbnb Offering Stay in Juliet's House in Verona on Valentine's Day</a>
+                                </div>
+                            </li>
+                            <li class="media border-bottom border-secondary py-3">
+                                <img class="w-25 align-self-center" src="assets/verona.jpg" alt="Verona Juliette's house">
+                                <div class="media-body pl-3">
+                                    <a class="font-weight-bold" href="#">Airbnb Offering Stay in Juliet's House in Verona on Valentine's Day</a>
+                                </div>
+                            </li>
+                            <li class="media border-bottom border-secondary py-3">
+                                <img class="w-25 align-self-center" src="assets/verona.jpg" alt="Verona Juliette's house">
+                                <div class="media-body pl-3">
+                                    <a class="font-weight-bold" href="#">Airbnb Offering Stay in Juliet's House in Verona on Valentine's Day</a>
+                                </div>
+                            </li>
+                            <li class="media border-bottom border-secondary py-3">
+                                <img class="w-25 align-self-center" src="assets/verona.jpg" alt="Verona Juliette's house">
+                                <div class="media-body pl-3">
+                                    <a class="font-weight-bold" href="#">Airbnb Offering Stay in Juliet's House in Verona on Valentine's Day</a>
+                                </div>
+                            </li>
+                            <li class="media border-bottom border-secondary py-3">
+                                <img class="w-25 align-self-center" src="assets/verona.jpg" alt="Verona Juliette's house">
+                                <div class="media-body pl-3">
+                                    <a class="font-weight-bold" href="#">Airbnb Offering Stay in Juliet's House in Verona on Valentine's Day</a>
+                                </div>
+                            </li>
+                            <li class="media border-bottom border-secondary py-3">
+                                <img class="w-25 align-self-center" src="assets/verona.jpg" alt="Verona Juliette's house">
+                                <div class="media-body pl-3">
+                                    <a class="font-weight-bold" href="#">Airbnb Offering Stay in Juliet's House in Verona on Valentine's Day</a>
+                                </div>
+                            </li>
+                        </ul>
+                     </div>
+                     <div class="sponsored-right">
+                        <div class="card">
+                          <img class="card-img-top" src="assets/nurse2.jpg" alt="Card image cap">
+                          <span class="sponsored">Sponsored Insight</span> 
+                          <div class="card-body">
+                            <h5 class="card-title font-weight-bold text-dark">Nurses - The Real Medical Heroes of 2020</h5>
+                            <p class="card-text">We’re used to doctors bustling in and out when in hospital, but it’s the reassuring presence and professionalism of the nursing staff that we rely on. What sets the best ones apart?</p>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <img class="card-img-top" src="assets/nurse2.jpg" alt="Card image cap">
+                          <span class="sponsored">Sponsored Insight</span> 
+                          <div class="card-body">
+                            <h5 class="card-title font-weight-bold text-dark">Nurses - The Real Medical Heroes of 2020</h5>
+                            <p class="card-text">We’re used to doctors bustling in and out when in hospital, but it’s the reassuring presence and professionalism of the nursing staff that we rely on. What sets the best ones apart?</p>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <img class="card-img-top" src="assets/nurse2.jpg" alt="Card image cap">
+                          <span class="sponsored">Sponsored Insight</span> 
+                          <div class="card-body">
+                            <h5 class="card-title font-weight-bold text-dark">Nurses - The Real Medical Heroes of 2020</h5>
+                            <p class="card-text">We’re used to doctors bustling in and out when in hospital, but it’s the reassuring presence and professionalism of the nursing staff that we rely on. What sets the best ones apart?</p>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <img class="card-img-top" src="assets/nurse2.jpg" alt="Card image cap">
+                          <span class="sponsored">Sponsored Insight</span> 
+                          <div class="card-body">
+                            <h5 class="card-title font-weight-bold text-dark">Nurses - The Real Medical Heroes of 2020</h5>
+                            <p class="card-text">We’re used to doctors bustling in and out when in hospital, but it’s the reassuring presence and professionalism of the nursing staff that we rely on. What sets the best ones apart?</p>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <img class="card-img-top" src="assets/nurse2.jpg" alt="Card image cap">
+                          <span class="sponsored">Sponsored Insight</span> 
+                          <div class="card-body">
+                            <h5 class="card-title font-weight-bold text-dark">Nurses - The Real Medical Heroes of 2020</h5>
+                            <p class="card-text">We’re used to doctors bustling in and out when in hospital, but it’s the reassuring presence and professionalism of the nursing staff that we rely on. What sets the best ones apart?</p>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <img class="card-img-top" src="assets/nurse2.jpg" alt="Card image cap">
+                          <span class="sponsored">Sponsored Insight</span> 
+                          <div class="card-body">
+                            <h5 class="card-title font-weight-bold text-dark">Nurses - The Real Medical Heroes of 2020</h5>
+                            <p class="card-text">We’re used to doctors bustling in and out when in hospital, but it’s the reassuring presence and professionalism of the nursing staff that we rely on. What sets the best ones apart?</p>
+                          </div>
+                        </div>
+                     </div>                  
+                 </div>
+             </section>
+             <section class="row m-0 magazine">
+                 <div class="col-12 row p-0 m-0 magazine-top my-3">
+                    <div class="col-12 py-2 my-2 col-md-9 offset-md-3 d-none d-md-flex justify-content-center align-items-center pt-md-2 pb-md-2 mb-md-3 border-custom">
+                         <span class="icon">N</span>
+                         <h3 class="m-0 text-uppercase">In the magazine</h3>
+                    </div>  
+                    <div class="col-12 col-md-3 news-special-children-1 overflow-hidden contSpecial2">
+                        <img class="w-100 mb-5 mb-md-0 heightSpec2" src="assets/africaPoster.jpg" alt="something">
+                    </div> 
+                    <div class="d-md-none col-12 py-2 my-2 col-md-9 offset-md-3 d-flex justify-content-center align-items-center pt-md-2 pb-md-2 mb-md-3 border-custom">
+                        <span class="icon">N</span>
+                        <h3 class="m-0 text-uppercase">In the magazine</h3>
+                   </div>   
+                    <div class="col-12 my-3 m-md-0 col-md-3">
+                       <div class="card w-100 h-100 border-0">
+                         <img src="assets/blacksChina.jpg" class="card-img-top" alt="...">
+                         <div class="card-body p-0">
+                            <div class="py-2">
+                                <span class="btn btn-danger rounded-0 border-0 colorAd fontCustom text-uppercase">Cover</span>
+                                <span class="btn btn-light bg-white fontCustom text-uppercase">World</span>
+                            </div> 
+                           <p class="card-text font-weight-bold">Black China: Africa's First Superpower Is Coming Sooner Than You Think</p>
+                         </div>
+                       </div>
+                    </div>
+                    <div class="col-12 my-3 m-md-0 col-md-3">
+                         <div class="card w-100 h-100 border-0">
+                           <img src="assets/blacksChina.jpg" class="card-img-top" alt="...">
+                           <div class="card-body p-0">
+                              <div class="py-2">
+                                  <span class="btn btn-danger rounded-0 border-0 colorAd fontCustom text-uppercase">Cover</span>
+                                  <span class="btn btn-light bg-white fontCustom text-uppercase">World</span>
+                              </div> 
+                             <p class="card-text font-weight-bold">Black China: Africa's First Superpower Is Coming Sooner Than You Think</p>
+                           </div>
+                         </div>
+                    </div>
+                    <div class="col-12 my-3 m-md-0 col-md-3">
+                         <div class="card w-100 h-100 border-0">
+                           <img src="assets/blacksChina.jpg" class="card-img-top" alt="...">
+                           <div class="card-body p-0">
+                              <div class="py-2">
+                                  <span class="btn btn-danger rounded-0 border-0 colorAd fontCustom text-uppercase">Cover</span>
+                                  <span class="btn btn-light bg-white fontCustom text-uppercase">World</span>
+                              </div> 
+                             <p class="card-text font-weight-bold">Black China: Africa's First Superpower Is Coming Sooner Than You Think</p>
+                           </div>
+                         </div>
+                    </div>       
+                 </div>
+                 <div class="col-12 row p-0 m-0 magazine-bottom my-3 news">
+                     <div class="col-12 my-3 m-md-0 col-md-3">
+                         <div class="card w-100 h-100 border-0">
+                           <img src="assets/blacksChina.jpg" class="card-img-top" alt="...">
+                           <div class="card-body p-0">
+                              <div class="py-2">
+                                  <span class="btn btn-danger rounded-0 border-0 colorAd fontCustom text-uppercase">Cover</span>
+                                  <span class="btn btn-light bg-white fontCustom text-uppercase">World</span>
+                              </div> 
+                             <p class="card-text font-weight-bold">Black China: Africa's First Superpower Is Coming Sooner Than You Think</p>
+                           </div>
+                         </div>
+                     </div>
+                     <div class="col-12 my-3 m-md-0 col-md-3">
+                         <div class="card w-100 h-100 border-0">
+                            <img src="assets/blacksChina.jpg" class="card-img-top" alt="...">
+                            <div class="card-body p-0">
+                               <div class="py-2">
+                                   <span class="btn btn-danger rounded-0 border-0 colorAd fontCustom text-uppercase">Cover</span>
+                                   <span class="btn btn-light bg-white fontCustom text-uppercase">World</span>
+                               </div> 
+                              <p class="card-text font-weight-bold">Black China: Africa's First Superpower Is Coming Sooner Than You Think</p>
+                            </div>
+                          </div>
+                     </div>
+                     <div class="col-12 my-3 m-md-0 col-md-3">
+                         <div class="card w-100 h-100 border-0">
+                           <img src="assets/blacksChina.jpg" class="card-img-top" alt="...">
+                           <div class="card-body p-0">
+                              <div class="py-2">
+                                  <span class="btn btn-danger rounded-0 border-0 colorAd fontCustom text-uppercase">Cover</span>
+                                  <span class="btn btn-light bg-white fontCustom text-uppercase">World</span>
+                              </div> 
+                             <p class="card-text font-weight-bold">Black China: Africa's First Superpower Is Coming Sooner Than You Think</p>
+                           </div>
+                         </div>
+                     </div>
+                     <div class="col-12 my-3 m-md-0 col-md-3">
+                         <div class="card w-100 h-100 border-0">
+                           <img src="assets/blacksChina.jpg" class="card-img-top" alt="...">
+                           <div class="card-body p-0">
+                              <div class="py-2">
+                                  <span class="btn btn-danger rounded-0 border-0 colorAd fontCustom text-uppercase">Cover</span>
+                                  <span class="btn btn-light bg-white fontCustom text-uppercase">World</span>
+                              </div> 
+                             <p class="card-text font-weight-bold">Black China: Africa's First Superpower Is Coming Sooner Than You Think</p>
+                           </div>
+                         </div>
+                     </div>
+                 </div>
+             </section>
+             <div class="row m-0 videos">
+                 <div class="row d-flex justify-content-center w-100">
+                     <span class="icon">N</span>
+                     <h3 class="m-0">NEWSWEEK CONVERSATIONS</h3>
+                 </div>
+                 <div class="d-md-none w-100 mx-3">
+                     <div class="info-video pb-3">
+                        <figure>
+                            <img class="w-100" src="assets/actor.jpg" alt="image">
+                        </figure>
+                        <h3 class="p-3"><a class="text-white font-weight-bold" href="#">The Vampire Diaries' Paul Wesley Talks Fame, Directing and CBS' 'Tell Me a Story'</a></h3>
+                        <p class="text-light p-3">"I try my best not to drink the Kool-Aid too much, because that can be a slippery slope," Paul Wesley said about dealing with fame.</p>
+                        <time class="text-secondary p-3">20:00</time>
+                     </div>
+                     <div class="info-video">
+                        <div class="border border-white video-options-right">
+                            <img class="mr-3 w-25 w-md-100" src="assets/actress.jpg" alt="image">
+                            <div class="text-white d-inline-block w-50 align-middle">
+                                <span class="mt-0">'American Horror Story's' Leslie Grossman Is the Definition of a Great Hollywood Character Actress</span>
+                                21:04
+                          </div>
+                        </div> 
+                        <div class="border border-white video-options-right">
+                            <img class="mr-3 w-25 w-md-100" src="assets/actress.jpg" alt="image">
+                            <div class="text-white d-inline-block w-50 align-middle">
+                                <span class="mt-0">'American Horror Story's' Leslie Grossman Is the Definition of a Great Hollywood Character Actress</span>
+                                21:04
+                          </div>
+                        </div> 
+                        <div class="border border-white video-options-right">
+                            <img class="mr-3 w-25 w-md-100" src="assets/actress.jpg" alt="image">
+                            <div class="text-white d-inline-block w-50 align-middle">
+                                <span class="mt-0">'American Horror Story's' Leslie Grossman Is the Definition of a Great Hollywood Character Actress</span>
+                                21:04
+                          </div>
+                        </div> 
+                     </div>
+                 </div>
+                 <div class="d-none d-md-flex mx-3 row">
+                    <div class="row col-md-8 m-0 p-0 video-left">
+                        <div class="col-md-6 order-md-1 col-lg-5 m-0 p-3 text-white info-video">
+                           <h3><a class="text-white" href="#">The Vampire Diaries' Paul Wesley Talks Fame, Directing and CBS' 'Tell Me a Story'</a></h3>
+                           <p>"I try my best not to drink the Kool-Aid too much, because that can be a slippery slope," Paul Wesley said about dealing with fame.</p>
+                           <time>20:00</time>
+                       </div>
+                       <div class="col-md-6 order-md-2 col-lg-7 m-0 p-0 video-pic-big h-100">
+                       </div>
+                    </div>
+                    <div class="col-md-4 content-video">
+                        <div class="media row border border-white video-options-right info-video">
+                          <div class="mr-1 col-4 video-pic-small"></div>
+                          <div class="media-body col-8 text-secondary">
+                            <span class="mt-0 text-white">'American Horror Story's' Leslie Grossman Is the Definition of a Great Hollywood Character Actress</span>
+                            21:04
+                          </div>
+                        </div>
+                        <div class="media row border border-white video-options-right info-video">
+                          <div class="mr-1 col-4 video-pic-small"></div>
+                          <div class="media-body col-8 text-secondary">
+                            <span class="mt-0 text-white">'American Horror Story's' Leslie Grossman Is the Definition of a Great Hollywood Character Actress</span>
+                            21:04
+                          </div>
+                        </div>
+                        <div class="media row border border-white video-options-right info-video">
+                          <div class="mr-1 col-4 video-pic-small"></div>
+                          <div class="media-body col-8 text-secondary">
+                            <span class="mt-0 text-white">'American Horror Story's' Leslie Grossman Is the Definition of a Great Hollywood Character Actress</span>
+                            21:04
+                          </div>
+                        </div>
+                    </div>
+                 </div>
+             </div>
+             <section class="row m-0 editorsPick">
+                 <div class="col-12 d-flex justify-content-center align-items-center">
+                     <span class="icon">N</span>
+                     <h3 class="m-0">EDITOR'S PICK</h3>
+                 </div>
+                 <div class="col-12 col-md-6 col-lg-3 news-special-children">
+                    <article  class="card-article card pb-3 border-0">
+                        <a href="#">
+                           <img class="card-img-top" src="assets/auroraBor.jpeg" alt="image news">
+                           <span class="tag">Health</span> 
+                        </a>
+                        <div class="card-body py-2 px-0">
+                           <h3 class="title-card card-title">Entirely New Type of Aurora Discovered, Creating 'Dunes' in the Night Sky</h3>
+                           <p class="excerpt card-text">The "dunes" can be found at an altitude of around 62 miles in the upper part of an atmospheric layer known as the mesosphere.</p>
+                        </div>
+                    </article>
+                 </div>
+                 <div class="col-12 col-md-6 col-lg-3 news-special-children">
+                    <article  class="card-article card pb-3 border-0">
+                         <a href="#">
+                            <img class="card-img-top" src="assets/auroraBor.jpeg" alt="image news">
+                            <span class="tag">Health</span> 
+                         </a>
+                         <div class="card-body py-2 px-0">
+                            <h3 class="title-card card-title">Entirely New Type of Aurora Discovered, Creating 'Dunes' in the Night Sky</h3>
+                            <p class="excerpt card-text">The "dunes" can be found at an altitude of around 62 miles in the upper part of an atmospheric layer known as the mesosphere.</p>
+                         </div>
+                     </article>
+                 </div>
+                 <div class="col-12 col-md-6 col-lg-3 news-special-children">
+                    <article  class="card-article card pb-3 border-0">
+                         <a href="#">
+                            <img class="card-img-top" src="assets/auroraBor.jpeg" alt="image news">
+                            <span class="tag">Health</span> 
+                         </a>
+                         <div class="card-body py-2 px-0">
+                            <h3 class="title-card card-title">Entirely New Type of Aurora Discovered, Creating 'Dunes' in the Night Sky</h3>
+                            <p class="excerpt card-text">The "dunes" can be found at an altitude of around 62 miles in the upper part of an atmospheric layer known as the mesosphere.</p>
+                         </div>
+                     </article>
+                 </div>
+                 <div class="col-12 col-md-6 col-lg-3 news-special-children">
+                    <article  class="card-article card pb-3 border-0">
+                        <a href="#">
+                           <img class="card-img-top" src="assets/auroraBor.jpeg" alt="image news">
+                           <span class="tag">Health</span> 
+                        </a>
+                        <div class="card-body py-2 px-0">
+                           <h3 class="title-card card-title">Entirely New Type of Aurora Discovered, Creating 'Dunes' in the Night Sky</h3>
+                           <p class="excerpt card-text">The "dunes" can be found at an altitude of around 62 miles in the upper part of an atmospheric layer known as the mesosphere.</p>
+                        </div>
+                    </article>
+                 </div>
+                 <div class="col-12 col-md-6 col-lg-3 news-special-children">
+                    <article  class="card-article card pb-3 border-0">
+                         <a href="#">
+                            <img class="card-img-top" src="assets/auroraBor.jpeg" alt="image news">
+                            <span class="tag">Health</span> 
+                         </a>
+                         <div class="card-body py-2 px-0">
+                            <h3 class="title-card card-title">Entirely New Type of Aurora Discovered, Creating 'Dunes' in the Night Sky</h3>
+                            <p class="excerpt card-text">The "dunes" can be found at an altitude of around 62 miles in the upper part of an atmospheric layer known as the mesosphere.</p>
+                         </div>
+                     </article>
+                 </div>
+                 <div class="col-12 col-md-6 col-lg-3 news-special-children">
+                    <article  class="card-article card pb-3 border-0">
+                        <a href="#">
+                           <img class="card-img-top" src="assets/auroraBor.jpeg" alt="image news">
+                           <span class="tag">Health</span> 
+                        </a>
+                        <div class="card-body py-2 px-0">
+                           <h3 class="title-card card-title">Entirely New Type of Aurora Discovered, Creating 'Dunes' in the Night Sky</h3>
+                           <p class="excerpt card-text">The "dunes" can be found at an altitude of around 62 miles in the upper part of an atmospheric layer known as the mesosphere.</p>
+                        </div>
+                    </article>
+                 </div>
+                 <div class="col-12 col-md-6 col-lg-3 news-special-children">
+                    <article  class="card-article card pb-3 border-0">
+                          <a href="#">
+                             <img class="card-img-top" src="assets/auroraBor.jpeg" alt="image news">
+                             <span class="tag">Health</span> 
+                          </a>
+                          <div class="card-body py-2 px-0">
+                             <h3 class="title-card card-title">Entirely New Type of Aurora Discovered, Creating 'Dunes' in the Night Sky</h3>
+                             <p class="excerpt card-text">The "dunes" can be found at an altitude of around 62 miles in the upper part of an atmospheric layer known as the mesosphere.</p>
+                          </div>
+                      </article>
+                 </div>
+                 <div class="col-12 col-md-6 col-lg-3 news-special-children">
+                      <article  class="card-article card pb-3 border-0">
+                          <a href="#">
+                             <img class="card-img-top" src="assets/auroraBor.jpeg" alt="image news">
+                             <span class="tag">Health</span> 
+                          </a>
+                          <div class="card-body py-2 px-0">
+                             <h3 class="title-card card-title">Entirely New Type of Aurora Discovered, Creating 'Dunes' in the Night Sky</h3>
+                             <p class="excerpt card-text">The "dunes" can be found at an altitude of around 62 miles in the upper part of an atmospheric layer known as the mesosphere.</p>
+                          </div>
+                      </article>
+                 </div>
+             </section>
+             <section class="slideShows row m-0">
+                 <div class="col-12 d-flex justify-content-center align-items-center">
+                      <span class="icon">N</span>
+                      <h3 class="m-0">FEATURED SLIDESHOWS</h3>
+                  </div>
+                  <div class="col-md-4 slideshows-children">
+                      <div class="card w-100 h-100 border-0">
+                        <div>
+                           <a href="#">
+                               <img src="assets/nature.jpg" class="card-img-top" alt="image">
+                               <span class="icon-slide">11</span>
+                           </a>
+                        </div>
+                        <div class="card-body p-0">
+                          <h5 class="card-text font-weight-bold">Relive the 'Star Wars' Saga at These Filming Locations</h5>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-md-4 slideshows-children">
+                      <div class="card w-100 h-100 border-0">
+                         <div>
+                            <a href="#">
+                                <img src="assets/nature.jpg" class="card-img-top" alt="image">
+                                <span class="icon-slide">11</span>
+                            </a>
+                         </div>
+                         <div class="card-body p-0">
+                           <h5 class="card-text font-weight-bold">Relive the 'Star Wars' Saga at These Filming Locations</h5>
+                         </div>
+                      </div>
+                  </div>
+                  <div class="col-md-4 slideshows-children">
+                    <div class="card w-100 h-100 border-0">
+                       <div>
+                          <a href="#">
+                              <img src="assets/nature.jpg" class="card-img-top" alt="image">
+                              <span class="icon-slide">11</span>
+                          </a>
+                       </div>
+                       <div class="card-body p-0">
+                         <h5 class="card-text font-weight-bold">Relive the 'Star Wars' Saga at These Filming Locations</h5>
+                       </div>
+                     </div>
+                  </div>
+                  <div class="col-md-4 slideshows-children">
+                    <div class="card w-100 h-100 border-0">
+                      <div>
+                         <a href="#">
+                             <img src="assets/nature.jpg" class="card-img-top" alt="image">
+                             <span class="icon-slide">11</span>
+                         </a>
+                      </div>
+                      <div class="card-body p-0">
+                        <h5 class="card-text font-weight-bold">Relive the 'Star Wars' Saga at These Filming Locations</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 slideshows-children">  
+                    <div class="card w-100 h-100 border-0">
+                      <div>
+                         <a href="#">
+                             <img src="assets/nature.jpg" class="card-img-top" alt="image">
+                             <span class="icon-slide">11</span>
+                         </a>
+                      </div>
+                      <div class="card-body p-0">
+                        <h5 class="card-text font-weight-bold">Relive the 'Star Wars' Saga at These Filming Locations</h5>
+                      </div>
+                    </div>  
+                  </div>
+                  <div class="col-md-4 slideshows-children">
+                    <div class="card w-100 h-100 border-0">
+                      <div>
+                         <a href="#">
+                             <img src="assets/nature.jpg" class="card-img-top" alt="image">
+                             <span class="icon-slide">11</span>
+                         </a>
+                      </div>
+                      <div class="card-body p-0">
+                        <h5 class="card-text font-weight-bold">Relive the 'Star Wars' Saga at These Filming Locations</h5>
+                      </div>
+                    </div>
+                  </div>
+             </section>
+             <section class="categories row m-0">
+                  <div class="col-12 d-flex justify-content-start align-items-center">
+                       <h3 class="m-0">U.S.</h3>
+                   </div>
+                   <div class="col-12 my-3 col-md-4 categories-US">
+                       <div class="card w-100 h-100 border-0">
+                         <img src="assets/nature.jpg" class="card-img-top" alt="image">
+                         <div class="card-body p-0 my-3">
+                           <h5 class="card-text font-weight-bold">Relive the 'Star Wars' Saga at These Filming Locations</h5>
+                         </div>
+                       </div>
+                   </div>
+                   <div class="col-12 my-3 col-md-4 categories-US">
+                       <div class="card w-100 h-100 border-0">
+                           <img src="assets/nature.jpg" class="card-img-top" alt="image">
+                           <div class="card-body p-0 my-3">
+                             <h5 class="card-text font-weight-bold">Relive the 'Star Wars' Saga at These Filming Locations</h5>
+                           </div>
+                         </div>
+                   </div>
+                   <div class="col-12 my-3 col-md-4 categories-US d-flex flex-column">
+                       <div class="categories-mini border-bottom border-secondary pb-2 mb-2">
+                          <div class="media">
+                              <img class="align-self-center w-50" src="assets/politic.jpg" alt="Verona Juliette's house">
+                              <div class="media-body pl-3">
+                                  <a class="font-weight-bold" href="#">HO Praises China As Some Question Coronavirus Transparency</a>
+                              </div>
+                          </div>
+                       </div>
+                       <div class="categories-mini border-bottom border-secondary pb-2 mb-2">
+                          <div class="media">
+                               <img class="align-self-center w-50" src="assets/politic.jpg" alt="Verona Juliette's house">
+                               <div class="media-body pl-3">
+                                   <a class="font-weight-bold" href="#">HO Praises China As Some Question Coronavirus Transparency</a>
+                               </div>
+                          </div>
+                       </div>
+                       <div class="categories-mini">
+                           <div class="media">
+                                <img class="align-self-center w-50" src="assets/politic.jpg" alt="Verona Juliette's house">
+                                <div class="media-body pl-3">
+                                    <a class="font-weight-bold" href="#">HO Praises China As Some Question Coronavirus Transparency</a>
+                                </div>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="col-12 d-flex justify-content-start align-items-center">
+                       <h3 class="m-0">World</h3>
+                   </div>
+                   <div class="col-12 my-3 col-md-4 categories-US">
+                        <div class="card w-100 h-100 border-0">
+                          <img src="assets/nature.jpg" class="card-img-top" alt="image">
+                          <div class="card-body p-0 my-3">
+                            <h5 class="card-text font-weight-bold">Relive the 'Star Wars' Saga at These Filming Locations</h5>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-12 my-3 col-md-4 categories-US">
+                        <div class="card w-100 h-100 border-0">
+                            <img src="assets/nature.jpg" class="card-img-top" alt="image">
+                            <div class="card-body p-0 my-3">
+                              <h5 class="card-text font-weight-bold">Relive the 'Star Wars' Saga at These Filming Locations</h5>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-12 my-3 col-md-4 categories-US d-flex flex-column">
+                        <div class="categories-mini border-bottom border-secondary pb-2 mb-2">
+                           <div class="media">
+                               <img class="align-self-center w-50" src="assets/politic.jpg" alt="Verona Juliette's house">
+                               <div class="media-body pl-3">
+                                   <a class="font-weight-bold" href="#">HO Praises China As Some Question Coronavirus Transparency</a>
+                               </div>
+                           </div>
+                        </div>
+                        <div class="categories-mini border-bottom border-secondary pb-2 mb-2">
+                           <div class="media">
+                                <img class="align-self-center w-50" src="assets/politic.jpg" alt="Verona Juliette's house">
+                                <div class="media-body pl-3">
+                                    <a class="font-weight-bold" href="#">HO Praises China As Some Question Coronavirus Transparency</a>
+                                </div>
+                           </div>
+                        </div>
+                        <div class="categories-mini">
+                            <div class="media">
+                                 <img class="align-self-center w-50" src="assets/politic.jpg" alt="Verona Juliette's house">
+                                 <div class="media-body pl-3">
+                                     <a class="font-weight-bold" href="#">HO Praises China As Some Question Coronavirus Transparency</a>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                   <div class="col-12 d-flex justify-content-start align-items-center">
+                         <h3 class="m-0">Business</h3>
+                   </div>
+                   <div class="col-12 my-3 col-md-4 categories-US">
+                        <div class="card w-100 h-100 border-0">
+                          <img src="assets/nature.jpg" class="card-img-top" alt="image">
+                          <div class="card-body p-0 my-3">
+                            <h5 class="card-text font-weight-bold">Relive the 'Star Wars' Saga at These Filming Locations</h5>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-12 my-3 col-md-4 categories-US">
+                        <div class="card w-100 h-100 border-0">
+                            <img src="assets/nature.jpg" class="card-img-top" alt="image">
+                            <div class="card-body p-0 my-3">
+                              <h5 class="card-text font-weight-bold">Relive the 'Star Wars' Saga at These Filming Locations</h5>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-12 my-3 col-md-4 categories-US d-flex flex-column">
+                        <div class="categories-mini border-bottom border-secondary pb-2 mb-2">
+                           <div class="media">
+                               <img class="align-self-center w-50" src="assets/politic.jpg" alt="Verona Juliette's house">
+                               <div class="media-body pl-3">
+                                   <a class="font-weight-bold" href="#">HO Praises China As Some Question Coronavirus Transparency</a>
+                               </div>
+                           </div>
+                        </div>
+                        <div class="categories-mini border-bottom border-secondary pb-2 mb-2">
+                           <div class="media">
+                                <img class="align-self-center w-50" src="assets/politic.jpg" alt="Verona Juliette's house">
+                                <div class="media-body pl-3">
+                                    <a class="font-weight-bold" href="#">HO Praises China As Some Question Coronavirus Transparency</a>
+                                </div>
+                           </div>
+                        </div>
+                        <div class="categories-mini">
+                            <div class="media">
+                                 <img class="align-self-center w-50" src="assets/politic.jpg" alt="Verona Juliette's house">
+                                 <div class="media-body pl-3">
+                                     <a class="font-weight-bold" href="#">HO Praises China As Some Question Coronavirus Transparency</a>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                   <div class="col-12 d-flex justify-content-start align-items-center">
+                       <h3 class="m-0">Tech & Science</h3>
+                   </div>
+                   <div class="col-12 my-3 col-md-4 categories-US">
+                        <div class="card w-100 h-100 border-0">
+                          <img src="assets/nature.jpg" class="card-img-top" alt="image">
+                          <div class="card-body p-0 my-3">
+                            <h5 class="card-text font-weight-bold">Relive the 'Star Wars' Saga at These Filming Locations</h5>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-12 my-3 col-md-4 categories-US">
+                        <div class="card w-100 h-100 border-0">
+                            <img src="assets/nature.jpg" class="card-img-top" alt="image">
+                            <div class="card-body p-0 my-3">
+                              <h5 class="card-text font-weight-bold">Relive the 'Star Wars' Saga at These Filming Locations</h5>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-12 my-3 col-md-4 categories-US d-flex flex-column">
+                        <div class="categories-mini border-bottom border-secondary pb-2 mb-2">
+                           <div class="media">
+                               <img class="align-self-center w-50" src="assets/politic.jpg" alt="Verona Juliette's house">
+                               <div class="media-body pl-3">
+                                   <a class="font-weight-bold" href="#">HO Praises China As Some Question Coronavirus Transparency</a>
+                               </div>
+                           </div>
+                        </div>
+                        <div class="categories-mini border-bottom border-secondary pb-2 mb-2">
+                           <div class="media">
+                                <img class="align-self-center w-50" src="assets/politic.jpg" alt="Verona Juliette's house">
+                                <div class="media-body pl-3">
+                                    <a class="font-weight-bold" href="#">HO Praises China As Some Question Coronavirus Transparency</a>
+                                </div>
+                           </div>
+                        </div>
+                        <div class="categories-mini">
+                            <div class="media">
+                                 <img class="align-self-center w-50" src="assets/politic.jpg" alt="Verona Juliette's house">
+                                 <div class="media-body pl-3">
+                                     <a class="font-weight-bold" href="#">HO Praises China As Some Question Coronavirus Transparency</a>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                   <div class="col-12 d-flex justify-content-start align-items-center">
+                         <h3 class="m-0">Culture</h3>
+                   </div>
+                   <div class="col-12 my-3 col-md-4 categories-US">
+                        <div class="card w-100 h-100 border-0">
+                          <img src="assets/nature.jpg" class="card-img-top" alt="image">
+                          <div class="card-body p-0 my-3">
+                            <h5 class="card-text font-weight-bold">Relive the 'Star Wars' Saga at These Filming Locations</h5>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-12 my-3 col-md-4 categories-US">
+                        <div class="card w-100 h-100 border-0">
+                            <img src="assets/nature.jpg" class="card-img-top" alt="image">
+                            <div class="card-body p-0 my-3">
+                              <h5 class="card-text font-weight-bold">Relive the 'Star Wars' Saga at These Filming Locations</h5>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-12 my-3 col-md-4 categories-US d-flex flex-column">
+                        <div class="categories-mini border-bottom border-secondary pb-2 mb-2">
+                           <div class="media">
+                               <img class="align-self-center w-50" src="assets/politic.jpg" alt="Verona Juliette's house">
+                               <div class="media-body pl-3">
+                                   <a class="font-weight-bold" href="#">HO Praises China As Some Question Coronavirus Transparency</a>
+                               </div>
+                           </div>
+                        </div>
+                        <div class="categories-mini border-bottom border-secondary pb-2 mb-2">
+                           <div class="media">
+                                <img class="align-self-center w-50" src="assets/politic.jpg" alt="Verona Juliette's house">
+                                <div class="media-body pl-3">
+                                    <a class="font-weight-bold" href="#">HO Praises China As Some Question Coronavirus Transparency</a>
+                                </div>
+                           </div>
+                        </div>
+                        <div class="categories-mini">
+                            <div class="media">
+                                 <img class="align-self-center w-50" src="assets/politic.jpg" alt="Verona Juliette's house">
+                                 <div class="media-body pl-3">
+                                     <a class="font-weight-bold" href="#">HO Praises China As Some Question Coronavirus Transparency</a>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                   <div class="col-12 d-flex justify-content-start align-items-center">
+                       <h3 class="m-0">Sports</h3>
+                   </div>
+                   <div class="col-12 my-3 col-md-4 categories-US">
+                        <div class="card w-100 h-100 border-0">
+                          <img src="assets/nature.jpg" class="card-img-top" alt="image">
+                          <div class="card-body p-0 my-3">
+                            <h5 class="card-text font-weight-bold">Relive the 'Star Wars' Saga at These Filming Locations</h5>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-12 my-3 col-md-4 categories-US">
+                        <div class="card w-100 h-100 border-0">
+                            <img src="assets/nature.jpg" class="card-img-top" alt="image">
+                            <div class="card-body p-0 my-3">
+                              <h5 class="card-text font-weight-bold">Relive the 'Star Wars' Saga at These Filming Locations</h5>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-12 my-3 col-md-4 categories-US d-flex flex-column">
+                        <div class="categories-mini border-bottom border-secondary pb-2 mb-2">
+                           <div class="media">
+                               <img class="align-self-center w-50" src="assets/politic.jpg" alt="Verona Juliette's house">
+                               <div class="media-body pl-3">
+                                   <a class="font-weight-bold" href="#">HO Praises China As Some Question Coronavirus Transparency</a>
+                               </div>
+                           </div>
+                        </div>
+                        <div class="categories-mini border-bottom border-secondary pb-2 mb-2">
+                           <div class="media">
+                                <img class="align-self-center w-50" src="assets/politic.jpg" alt="Verona Juliette's house">
+                                <div class="media-body pl-3">
+                                    <a class="font-weight-bold" href="#">HO Praises China As Some Question Coronavirus Transparency</a>
+                                </div>
+                           </div>
+                        </div>
+                        <div class="categories-mini">
+                            <div class="media">
+                                 <img class="align-self-center w-50" src="assets/politic.jpg" alt="Verona Juliette's house">
+                                 <div class="media-body pl-3">
+                                     <a class="font-weight-bold" href="#">HO Praises China As Some Question Coronavirus Transparency</a>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+             </section>
+             <section class="subscribeBottom row m-0">
+                 <div class="subscribe-child col-lg-7">
+                    <h5 class="text-danger">SUBSCRIBE</h5> 
+                    <div class="in-depth-content flex-grow-1">
+                        <div class="row py-4 py-md-0">
+                           <div class="col-md-6 col-lg-7 row bg-light heightSpecial">
+                               <div class="w-25 h-50 bg-primary m-auto positionSpecial1">
+
+                               </div>
+                               <div class="w-25 h-50 bg-danger m-auto positionSpecial2">
+                                   
+                                </div>
+                           </div>
+                           <div class="col-md-6 col-lg-5 content-section-end">
+                             <div class="content-end text-center text-md-left">
+                                  <h4>In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</h4>
+                                  <p>All Access + Weekly Delivery.
+                                      <br>
+                                      Choose A Membership That's Perfect for You!
+                                       <br>
+                                       <br>
+                                       <a href="#" class="subscribe-button-1 text-uppercase">
+                                            Subscribe
+                                      </a> 
+                                  </p> 
+                             </div>  
+                           </div>
+                        </div>
+                    </div>
+                 </div>
+                 <div class="newsletter col-lg-5">
+                    <h5 class="text-danger">NEWSLETTER</h5>
+                    <div class="row border border-light py-4 py-md-0">
+                       <div class="col-md-3 col-lg-7 picture-end">
+                       </div>
+                       <img class="d-md-none w-50 mx-auto" src="assets/coronavirus.jpg" alt="image">
+                       <div class="col-md-9 col-lg-5 content-section-end">
+                         <div class="content-end text-center text-md-left">
+                              <h4>The Starting 5</h4>
+                              <p>Take back your inbox.
+                                   Sign up for our newsletter and start making sense of the world around you.
+                                   <br>
+                                   <br>
+                                   <a href="#" class="subscribe-button-1 text-uppercase">
+                                        Subscribe
+                                  </a> 
+                              </p> 
+                         </div>  
+                       </div>
+                    </div>
+                 </div>   
+             </section> 
+        </main>
+        <footer class="row m-0 p-4">
+            <div class="col-12 d-md-flex justify-content-between align-items-center border-bottom border-light">
+                <div class="credits-bottom d-flex flex-column flex-md-row justify-content-start justify-content-md-around">
+                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 395.6 60" style="enable-background:new 0 0 395.6 60;" xml:space="preserve"><g>
+                            <path class="st0" d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2	L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11	c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7	l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6	H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13	c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8	c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2	C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7	h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4	c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1	c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6	c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6	C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5	h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9	c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2	c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9	C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6	c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1	c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6	v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3	c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5	h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7"></path>
+                            </g>
+                    </svg>
+                    <p>© 2020 NEWSWEEK</p>
+                </div>
+                <ul class="icons list-inline">
+                    <li class="list-inline-item">
+                        <a href="#">
+                            <img width="30" src="assets/facebookIcon.png" alt="image">
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#">
+                                <img width="30" src="assets/twitterIcon.png" alt="image">
+                        </a>
+                    </li>
+                    <li class="list-inline-item"> 
+                        <a href="#">
+                                <img width="30" src="assets/instagramIcon.png" alt="image">
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                         <a href="#">
+                                <img width="30" src="assets/facebookIcon.png" alt="image">
+                         </a>
+                     </li>
+                     <li class="list-inline-item">
+                         <a href="#">
+                                <img width="30" src="assets/linkdinIcon.png" alt="image">
+                         </a>
+                     </li>
+                </ul>
+            </div>
+            <div class="footer-links col-12">
+                <div class="d-flex">
+                     <label>
+                        <strong>Editions:</strong>
+                    </label>
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a href="#">U.S. Edition</a></li>
+                        <li class="list-inline-item"><a href="#">日本</a></li>
+                        <li class="list-inline-item"><a href="#">Pakistan</a></li>
+                        <li class="list-inline-item"><a href="#">Polska</a></li>
+                        <li class="list-inline-item"><a href="#">România</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12">
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a href="#">About Us</a></li>
+                    <li class="list-inline-item"><a href="#">Corrections</a></li>
+                    <li class="list-inline-item"><a href="#">Contact Us</a></li>
+                    <li class="list-inline-item"><a href="#">Editorial Guidelines</a></li>
+                    <li class="list-inline-item"><a href="#">Advertise</a></li>
+                    <li class="list-inline-item"><a href="#">Copyright</a></li>
+                    <li class="list-inline-item"><a href="#">Terms &amp; Conditions</a></li>
+                    <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+                    <li class="list-inline-item"><a href="#">Cookie Policy</a></li>
+                    <li class="list-inline-item"><a href="#">Terms of Sale</a></li>
+                    <li class="list-inline-item"><a href="#">Archive</a></li>
+                    <li class="list-inline-item"><a href="#">Announcements</a></li>
+                    <li class="list-inline-item"><a href="#">Consent preferences</a></li>
+                </ul>
+            </div>
+        </footer>   
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script> 
+</body>
+</html>

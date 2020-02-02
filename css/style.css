@@ -1,0 +1,335 @@
+body {
+  background-color: #f4f5f6;
+}
+
+/* change some properties from bootstrap classes */
+
+/* nav bar styles */
+
+nav {
+  background-color: #f72210;
+}
+
+.arrow-right {
+  width: 10px;
+  fill: #f72210;
+}
+
+.sign-in {
+  font: bold 18px/14px "Roboto Condensed", sans-serif;
+}
+
+.subscribe-button {
+  background-color: white;
+  font: bold 18px/14px 'Roboto Condensed', sans-serif;
+  color: #f72210;
+  padding: 6px 11px;
+}
+
+@media screen and (max-width: 500px) {
+  .subscribe-button,
+  .sign-in {
+    font-size: 14px;
+  }
+}
+
+.date {
+  font: bold 18px/14px "Roboto Condensed", sans-serif;
+}
+
+.righ-data {
+  position: relative;
+}
+
+.red-shape {
+  width: 18%;
+  height: 16px;
+  background-color: red;
+  transform: skew(50deg);
+  position: absolute;
+  left: 78%;
+  top: 86px;
+  z-index: 10;
+}
+
+.red-shape-square {
+  width: 6%;
+  height: 16px;
+  background-color: red;
+  position: absolute;
+  left: 94%;
+  top: 86px;
+  z-index: 9;
+}
+
+.menu li {
+  border-left: 1px solid rgb(217, 217, 217);
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.search-bar {
+  background-color: aliceblue;
+}
+
+#Layer_2 {
+  fill: white;
+}
+
+@media screen and (min-width: 992px) {
+  #Layer_2 {
+    width: 396px;
+    height: 60px;
+    margin: 10px auto 0;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .logo-shape {
+    display: block;
+    width: 132px;
+    height: 20px;
+  }
+}
+
+#edit-search-block-form--4 {
+  position: absolute;
+  top: 14%;
+}
+
+/* main styles */
+
+.tag-news {
+  font: bold 16px/16px "Roboto Condensed", sans-serif;
+  padding-bottom: 11px;
+  color: rgba(3, 3, 3, 0.4);
+}
+
+.by {
+  font-size: 14px;
+  line-height: 21px;
+  color: #555;
+  text-transform: uppercase;
+  margin-top: 4px;
+}
+
+.title-card {
+  line-height: 27px;
+  font-weight: bold;
+}
+
+.picture-opinion {
+  height: 25%;
+}
+
+.wrapper {
+  /* overflow: hidden; */
+  max-width: 1310px;
+  background-color: white;
+}
+
+.icon {
+  background-color: #f72210;
+  text-align: center;
+  color: white;
+  font: bold 16px/16px "Roboto Condensed", sans-serif;
+  width: 29px;
+  height: 28px;
+  display: block;
+}
+
+.btn-travel {
+  display: inline-block;
+  background-color: #c2d4d7;
+  padding-left: 6px;
+  padding-right: 6px;
+  margin-right: 6px;
+  margin-bottom: 6px;
+}
+
+.tag {
+  color: #f72210;
+  font: bold 17px/16px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  padding: 8px 15px 9px;
+  background-color: rgba(255, 255, 255, 0.9);
+  position: relative;
+  bottom: 30px;
+}
+
+.sponsored {
+  color: #3581f4;
+  font: bold 17px/16px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  padding: 8px 15px 9px;
+  background-color: rgba(255, 255, 255, 0.9);
+  position: relative;
+  bottom: 30px;
+  width: 55%;
+}
+
+@media screen and (max-width: 991px) {
+  .sponsored-right {
+    margin: 0 30%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .more-stories {
+    position: sticky;
+    top: -1000px;
+  }
+
+  .sticky-left {
+    position: sticky;
+    top: -1000px;
+  }
+
+  .news-special-children-1 {
+    margin-top: -20px;
+  }
+
+  .border-custom {
+    border-bottom: 1px solid #d9d9d9;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .sponsored-right {
+    margin: 0;
+  }
+}
+
+.colorAd {
+  background-color: red;
+}
+
+.fontCustom {
+  font: bold 16px/26px "Roboto Condensed", sans-serif;
+}
+
+.info-video {
+  background-color: black;
+}
+
+.video-pic-big {
+  background-image: url("/assets/actor.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.video-options-right {
+  height: 33.333%;
+}
+
+.video-pic-small {
+  height: 100%;
+  background-image: url("/assets/actress.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* Same sules for various elements */
+
+.slideShows,
+.subscribeBottom {
+  border-bottom: 1px solid rgb(217, 217, 217);
+  padding-bottom: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.icon-slide {
+  position: relative;
+  bottom: 36px;
+  color: red;
+  padding: 15px 20px;
+  background-size: cover;
+}
+
+.arrow-right-1 {
+  width: 10px;
+  fill: white;
+}
+
+.subscribe-button-1 {
+  background-color: red;
+  color: white;
+  font: bold 18px/14px 'Roboto Condensed', sans-serif;
+  text-transform: uppercase;
+  padding: 6px 11px;
+}
+
+.responsiveStories {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .responsiveStories {
+    width: 30%;
+  }
+}
+
+.picture-end {
+  background: url("/assets/coronavirus.jpg") no-repeat;
+}
+
+.positionSpecial1 {
+  position: relative;
+  left: 22%;
+  top: -6%;
+}
+
+.positionSpecial2 {
+  position: relative;
+  left: -19%;
+}
+
+@media screen and (max-width: 768px) {
+  .heightSpecial {
+    height: 334px;
+  }
+
+  .contSpecial2 {
+    height: 520px;
+  }
+}
+
+.heightSpec2 {
+  height: 120%;
+}
+
+@media screen and (min-width: 768px) {
+  .heightSpec2 {
+    height: 100%;
+  }
+}
+
+/* End same sules for various elements */
+
+.categories-mini {
+  height: 33.3%;
+}
+
+#Layer_1 {
+  display: block;
+  width: 236px;
+  height: 36px;
+  margin-right: 15px;
+  margin-bottom: 12px;
+  fill: #f72210;
+}

@@ -19,7 +19,7 @@ The project uses different breakpoints as `-sm`, `-md`, `-lg`, `-xl` and other i
 
 To get a local copy up and running follow these simple example steps.
 
-### You need a  code editor like Atom or Visual Studio Code.
+### You need a code editor like Atom or Visual Studio Code.
 
 ### Setup: Just fork the project and you will have a copy of the repo or
 
@@ -30,9 +30,9 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Javier Botero**
 
-- Github: [@githubhandle](https://github.com/javierbotero)
-- Twitter: [@twitterhandle](https://twitter.com/JavierBotero1)
-- Linkedin: [linkedin](https://www.linkedin.com/in/javier-botero-044686155/)
+- Github: [@javierbotero](https://github.com/javierbotero)
+- Twitter: [@javierbotero1](https://twitter.com/JavierBotero1)
+- Linkedin: [Javier Botero](https://www.linkedin.com/in/javierboterodev/)
 
 ## 🤝 Contributing
 

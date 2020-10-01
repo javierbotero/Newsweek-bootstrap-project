@@ -31,7 +31,7 @@ To get a local copy up and running follow these simple example steps.
 👤 **Javier Botero**
 
 - Github: [@javierbotero](https://github.com/javierbotero)
-- Twitter: [@javierbotero1](https://twitter.com/JavierBotero1)
+- Twitter: [@javierbotero1](https://twitter.com/Javierboterodev)
 - Linkedin: [Javier Botero](https://www.linkedin.com/in/javierboterodev/)
 
 ## 🤝 Contributing
